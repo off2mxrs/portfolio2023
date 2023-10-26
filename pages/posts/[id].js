@@ -16,14 +16,14 @@ export default function Post({ postData }) {
         <div className={utilStyles.lightText}>
           <Date dateString={postData.date} />
         </div>
-        {/* <Image
+        <Image
                 priority
                 src={postData.image}
                 className={''}
                 height={400}
                 width={400}
                 alt=""
-              /> */}
+              />
         <div dangerouslySetInnerHTML={{ __html: postData.contentHtml }} />
       </article>
     </Layout>
