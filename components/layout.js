@@ -32,6 +32,7 @@ export default function Layout({ children, home }) {
         </ul>
       </nav>
       <main>{children}</main>
+      <footer>est 2023</footer>
     </div>
   );
 }
