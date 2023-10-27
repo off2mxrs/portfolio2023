@@ -21,7 +21,7 @@ export default function Home({ allPostsData }) {
       <Head>
         <title>{siteTitle}</title>
       </Head>
-      <header className={`${utilStyles.headingMd} ${utilStyles.portContainer}`}>
+      <header id='intro' className={`${utilStyles.headingMd} ${utilStyles.portContainer}`}>
         <div>
           <p>lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
           <p>Ut enim ad minim ut labore et dolore.</p>
@@ -37,10 +37,11 @@ export default function Home({ allPostsData }) {
                 alt=""
               />
           </div>
+          <h1>mosaicmars</h1>
       </header>
 
       <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
-        <h2 className={utilStyles.headingLg}>Blog</h2>
+        <h2 id='work' className={utilStyles.headingLg}>work</h2>
         <ul className={utilStyles.list}>
           {allPostsData.map(({ id, date, title, image }) => (
             <li className={utilStyles.listItem} key={id}>
@@ -62,6 +63,18 @@ export default function Home({ allPostsData }) {
           </li>
           ))}
         </ul>
+      </section>
+
+      <section>
+        <h2 id='resume' className={utilStyles.headingLg}>dev skills</h2>
+      </section>
+
+      <section>
+        <h2 id='inspo' className={utilStyles.headingLg}>inspo</h2>
+      </section>
+
+      <section>
+        <h2 id='contact' className={utilStyles.headingLg}>contact</h2>
       </section>
     </Layout>
   );

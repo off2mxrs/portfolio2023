@@ -24,10 +24,11 @@ export default function Layout({ children, home }) {
       </Head>
       <nav>
         <ul>
-            <li><Link href="/">intro</Link></li>
-            <li><Link href="/">work</Link></li>
-            <li><Link href="/">resume</Link></li>
-            <li><Link href="/">contact</Link></li> 
+            <li><Link href="/#intro">intro</Link></li>
+            <li><Link href="/#work">work</Link></li>
+            <li><Link href="/#resume">resume</Link></li>
+            <li><Link href="/#inspo">inspo</Link></li>
+            <li><Link href="/#contact">contact</Link></li> 
         </ul>
       </nav>
       <main>{children}</main>
