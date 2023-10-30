@@ -6,6 +6,9 @@ import { getSortedPostsData } from '../lib/posts';
 import Link from 'next/link';
 import Date from '../components/date';
 import Image from 'next/image';
+import pfp from '../public/images/profile.jpg';
+
+const name = 'Marshawn';
 
 export async function getStaticProps() {
   const allPostsData = getSortedPostsData();
@@ -31,14 +34,22 @@ export default function Home({ allPostsData }) {
         <div>
           <Image
                 priority
-                src={'/images/profile.jpg'}
-                className={''}
-                height={140}
-                width={115}
-                alt=""
+                src={pfp}
+                className={`${utilStyles.pfp}`}
+                sizes="100vw"
+                alt={name}
+                title={name}
+                style={{
+                  width: '100%',
+                  height: 'auto',
+                  objectFit: 'cover',
+                  aspectRatio: '0.8',
+                  objectPosition: `55%`,
+                  borderRadius: 75,
+                }}
               />
           </div>
-          <h1>mosaicmars</h1>
+          <h1>{name}</h1>
       </header>
 
       <section className={`${utilStyles.headingMd} ${utilStyles.padding1px} ${styles.pod} ${styles.noise}`}>
