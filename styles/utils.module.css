@@ -27,12 +27,20 @@
 
   .introPod {
     height: 375px;
+    align-items: center;
   }
 
   .introPodInner {
     display: flex;
+    flex-direction: column;
+    max-width: 600px;
+  }
+
+  .introPodLower {
+    display: flex;
     justify-content: space-between;
     height: 250px;
+    align-items: flex-start;
   }
 
   .pfpSect {

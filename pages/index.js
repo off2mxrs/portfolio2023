@@ -26,32 +26,34 @@ export default function Home({ allPostsData }) {
         <title>{siteTitle}</title>
       </Head>
       <header id='intro' className={`${styles.pod} ${styles.noise} ${utilStyles.introPod}`}>
-          <p>lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
         <div className={`${utilStyles.introPodInner}`}>
-          <div>
-            <p>Ut enim ad minim ut labore et dolore.</p>
-            <p>sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-          </div>
-          <div className={`${utilStyles.pfpSect}`}>
-            <Image
-                  priority
-                  src={pfp}
-                  className={`${utilStyles.pfp}`}
-                  placeholder='blur'
-                  sizes="100vw"
-                  alt={name}
-                  title={name}
-                  style={{
-                    height: 'auto',
-                    objectFit: 'cover',
-                    aspectRatio: '0.8',
-                    objectPosition: `55%`,
-                    // borderRadius: 75,
-                  }}
-                />
-              <h1 className={`${utilStyles.name}`}>{name}</h1>
+            <p>lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+          <div className={`${utilStyles.introPodLower}`}>
+            <div>
+              <p>Ut enim ad minim ut labore et dolore.</p>
+              <p>sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
             </div>
-          </div>
+            <div className={`${utilStyles.pfpSect}`}>
+              <Image
+                    priority
+                    src={pfp}
+                    className={`${utilStyles.pfp}`}
+                    placeholder='blur'
+                    sizes="100vw"
+                    alt={name}
+                    title={name}
+                    style={{
+                      height: 'auto',
+                      objectFit: 'cover',
+                      aspectRatio: '0.8',
+                      objectPosition: `55%`,
+                      // borderRadius: 75,
+                    }}
+                  />
+                <h1 className={`${utilStyles.name}`}>{name}</h1>
+              </div>
+            </div>
+        </div>
       </header>
 
       <section className={`${utilStyles.headingMd} ${utilStyles.padding1px} ${styles.pod} ${styles.noise}`}>
