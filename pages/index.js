@@ -8,7 +8,7 @@ import Date from '../components/date';
 import Image from 'next/image';
 import pfp from '../public/images/profile.jpg';
 
-const name = 'Marshawn';
+const name = 'marshawn';
 
 export async function getStaticProps() {
   const allPostsData = getSortedPostsData();
@@ -25,31 +25,33 @@ export default function Home({ allPostsData }) {
       <Head>
         <title>{siteTitle}</title>
       </Head>
-      <header id='intro' className={`${utilStyles.headingMd} ${styles.pod} ${styles.noise}`}>
-        <div>
+      <header id='intro' className={`${styles.pod} ${styles.noise} ${utilStyles.introPod}`}>
           <p>lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
-          <p>Ut enim ad minim ut labore et dolore.</p>
-          <p>sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-        </div>
-        <div>
-          <Image
-                priority
-                src={pfp}
-                className={`${utilStyles.pfp}`}
-                sizes="100vw"
-                alt={name}
-                title={name}
-                style={{
-                  width: '100%',
-                  height: 'auto',
-                  objectFit: 'cover',
-                  aspectRatio: '0.8',
-                  objectPosition: `55%`,
-                  borderRadius: 75,
-                }}
-              />
+        <div className={`${utilStyles.introPodInner}`}>
+          <div>
+            <p>Ut enim ad minim ut labore et dolore.</p>
+            <p>sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
           </div>
-          <h1>{name}</h1>
+          <div className={`${utilStyles.pfpSect}`}>
+            <Image
+                  priority
+                  src={pfp}
+                  className={`${utilStyles.pfp}`}
+                  placeholder='blur'
+                  sizes="100vw"
+                  alt={name}
+                  title={name}
+                  style={{
+                    height: 'auto',
+                    objectFit: 'cover',
+                    aspectRatio: '0.8',
+                    objectPosition: `55%`,
+                    // borderRadius: 75,
+                  }}
+                />
+              <h1 className={`${utilStyles.name}`}>{name}</h1>
+            </div>
+          </div>
       </header>
 
       <section className={`${utilStyles.headingMd} ${utilStyles.padding1px} ${styles.pod} ${styles.noise}`}>
