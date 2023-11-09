@@ -32,6 +32,11 @@ export default function Home({ allPostsData }) {
             <div>
               <p>Ut enim ad minim ut labore et dolore.</p>
               <p>sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+              <ul className={`${utilStyles.roles}`}>
+                <li>Frontend Dev</li>
+                <li>Event Curator</li>
+                <li>Dancer</li>
+              </ul>
               <h1 className={`${utilStyles.name} ${utilStyles.deskName}`}>{name}</h1>
             </div>
             <div className={`${utilStyles.outerPfpSect}`}>
