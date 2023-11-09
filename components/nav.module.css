@@ -1,0 +1,48 @@
+.nav{
+  position: fixed;
+  z-index: 999;
+}
+
+.menu {
+  display: none;
+  flex-direction: column;
+  position: absolute;
+  width: 150px;
+  right: 25px;
+  background: #fffbec;
+  list-style: none;
+  align-items: flex-start;
+  padding: 16px;
+  top: -18px;
+  border-radius: 5px;
+  border: black solid 1px;
+}
+
+.menu.open {
+  display: flex;
+}
+
+.menu li {
+  margin: 0;
+}
+
+.menu-icon {
+  display: block;
+}
+
+.hamburgerIcon {
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+  z-index: 998;
+  position: relative;
+}
+
+.hamburgerLine {
+  width: 50px;
+  height: 6px;
+  background-color: #DE5230;
+  border: black solid 1px;
+  margin: 2px 0;
+  border-radius: 2px;
+}

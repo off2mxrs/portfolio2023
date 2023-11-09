@@ -10,9 +10,11 @@ const Navigation = () => {
   };
 
   return (
-    <nav className={styles.nav}>
-      <div className={styles.menuIcon} onClick={toggleMenu}>
-        &#9776;
+    <nav className={`${styles.nav}`}>
+       <div className={`${styles.menuIcon} ${styles.hamburgerIcon}`} onClick={toggleMenu}>
+        <div className={`${styles.hamburgerLine}`}></div>
+        <div className={`${styles.hamburgerLine}`}></div>
+        <div className={`${styles.hamburgerLine}`}></div>
       </div>
       <ul className={`${styles.menu} ${isMenuOpen ? styles.open : ''}`}>
         <Link href="/#intro" passHref>

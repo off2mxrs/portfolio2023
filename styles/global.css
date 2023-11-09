@@ -30,6 +30,11 @@ img {
   color: #fff;
 } */
 
+header {
+  display: flex;
+  justify-content: flex-end;
+}
+
 footer {
   text-align: center;
 }
