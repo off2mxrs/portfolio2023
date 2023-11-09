@@ -1,6 +1,7 @@
 .nav{
   position: fixed;
   z-index: 999;
+  top: 10px;
 }
 
 .menu {
@@ -45,4 +46,14 @@
   border: black solid 1px;
   margin: 2px 0;
   border-radius: 2px;
+}
+
+@media (max-width: 768px) {
+  .hamburgerLine {
+    width: 30px;
+  }
+
+  .menu {
+    right: 15px;
+  }
 }
