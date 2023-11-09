@@ -1,22 +1,43 @@
+import { useState, useEffect, useRef } from 'react';
 import Link from 'next/link';
-import { useState } from 'react';
 import styles from './nav.module.css';
 
 const Navigation = () => {
   const [isMenuOpen, setMenuOpen] = useState(false);
+  const menuRef = useRef(null);
 
-  const toggleMenu = () => {
+  const toggleMenu = (event) => {
+    event.stopPropagation();
     setMenuOpen(!isMenuOpen);
   };
 
+  const handleOutsideClick = (event) => {
+    // Close the menu if the click is outside the menu
+    if (menuRef.current && !menuRef.current.contains(event.target)) {
+      setMenuOpen(false);
+    }
+  };
+
+  useEffect(() => {
+    if (isMenuOpen) {
+      // Add event listener to the document body when the menu is open
+      document.body.addEventListener('click', handleOutsideClick);
+    }
+
+    // Remove event listener on component unmount
+    return () => {
+      document.body.removeEventListener('click', handleOutsideClick);
+    };
+  }, [isMenuOpen]);
+
   return (
-    <nav className={`${styles.nav}`}>
-       <div className={`${styles.menuIcon} ${styles.hamburgerIcon}`} onClick={toggleMenu}>
-        <div className={`${styles.hamburgerLine}`}></div>
-        <div className={`${styles.hamburgerLine}`}></div>
-        <div className={`${styles.hamburgerLine}`}></div>
+    <div className={styles.nav}>
+      <div className={`${styles.menuIcon} ${styles.hamburgerIcon}`} onClick={toggleMenu}>
+        <div className={styles.hamburgerLine}></div>
+        <div className={styles.hamburgerLine}></div>
+        <div className={styles.hamburgerLine}></div>
       </div>
-      <ul className={`${styles.menu} ${isMenuOpen ? styles.open : ''}`}>
+      <ul ref={menuRef} className={`${styles.menu} ${isMenuOpen ? styles.open : ''}`}>
         <Link href="/#intro" passHref>
           <li onClick={toggleMenu}>intro</li>
         </Link>
@@ -33,9 +54,10 @@ const Navigation = () => {
           <li onClick={toggleMenu}>contact</li>
         </Link>
       </ul>
-    </nav>
+    </div>
   );
 };
 
 export default Navigation;
+
 
