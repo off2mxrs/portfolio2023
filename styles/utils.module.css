@@ -61,6 +61,12 @@
     margin: 5px;
     -webkit-text-stroke: 2px black;
   }
+
+  .deskName {
+    top: 81px;
+    position: relative;
+    font-size: 48px;
+  }
   
   .borderCircle {
     border-radius: 9999px;
@@ -85,8 +91,18 @@
   }
 
 @media (max-width: 480px) {
+    .outerPfpSect {
+        display: flex;
+        height: 250px;
+        align-items: flex-end;
+    }
+
     .pfp {
         width: 116px;
+    }
+
+    .deskName {
+        display: none;
     }
 }
   
@@ -97,5 +113,11 @@
 
     .introPod {
         border-radius: 40px 40px 0 0;
+    }
+}
+
+@media (min-width: 481px) {
+    .mobileName {
+        display: none;
     }
 }
