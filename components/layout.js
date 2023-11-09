@@ -3,6 +3,7 @@ import Image from 'next/image';
 import styles from './layout.module.css';
 import utilStyles from '../styles/utils.module.css';
 import Link from 'next/link';
+import Navigation from './nav';
 
 
 export const siteTitle = 'Portfolio';
@@ -22,16 +23,14 @@ export default function Layout({ children, home }) {
         <meta name="og:title" content={siteTitle} />
         <meta name="twitter:card" content="summary_large_image" />
       </Head>
-      <nav>
-        <ul>
-            <li><Link href="/#intro">intro</Link></li>
-            <li><Link href="/#work">work</Link></li>
-            <li><Link href="/#resume">resume</Link></li>
-            <li><Link href="/#inspo">inspo</Link></li>
-            <li><Link href="/#contact">contact</Link></li> 
-        </ul>
-      </nav>
-      <main>{children}</main>
+      
+      <header>
+        <Navigation />
+      </header>
+
+      <main>
+        {children}
+      </main>
       <footer>est 2023</footer>
     </div>
   );
