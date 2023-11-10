@@ -8,7 +8,7 @@
   .pod {
     display: flex;
     flex-direction: column;
-    padding: 1rem;
+    padding: 1.5rem;
     border: black solid 1px;
     /* border-radius: 41px 41px 0 0; */
     margin-bottom: 1rem;

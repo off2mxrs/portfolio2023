@@ -13,11 +13,25 @@
     letter-spacing: -0.05rem;
     margin: 1rem 0;
   }
+
+  .podTitle {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    justify-content: space-between;
+  }
   
   .headingLg {
-    font-size: 1.5rem;
-    line-height: 1.4;
+    font-size: 2rem;
     margin: 1rem 0;
+    color: #FDDDCF;
+  }
+
+  .orngRect {
+    width: 90px;
+    display: block;
+    height: 20px;
+    background-color: #DE5230;
   }
   
   .headingMd {

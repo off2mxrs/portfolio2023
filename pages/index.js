@@ -67,7 +67,10 @@ export default function Home({ allPostsData }) {
       </header>
 
       <section className={`${utilStyles.headingMd} ${utilStyles.padding1px} ${styles.pod} ${styles.noise}`}>
-        <h2 id='work' className={utilStyles.headingLg}>work</h2>
+        <div className={utilStyles.podTitle}>
+          <h2 id='work' className={utilStyles.headingLg}>work</h2>
+          <span className={utilStyles.orngRect}></span>
+        </div>
         <ul className={utilStyles.list}>
           {allPostsData.map(({ id, date, title, image }) => (
             <li className={utilStyles.listItem} key={id}>
@@ -92,15 +95,24 @@ export default function Home({ allPostsData }) {
       </section>
 
       <section className={`${styles.pod}`}>
-        <h2 id='resume' className={utilStyles.headingLg}>dev skills</h2>
+        <div className={utilStyles.podTitle}>
+          <h2 id='resume' className={utilStyles.headingLg}>dev skills</h2>
+          <span className={utilStyles.orngRect}></span>
+        </div>
       </section>
 
       <section className={`${styles.pod}`}>
-        <h2 id='inspo' className={utilStyles.headingLg}>inspo</h2>
+        <div className={utilStyles.podTitle}>
+          <h2 id='inspo' className={utilStyles.headingLg}>inspo</h2>
+          <span className={utilStyles.orngRect}></span>
+        </div>
       </section>
 
       <section className={`${styles.pod}`}>
-        <h2 id='contact' className={utilStyles.headingLg}>contact</h2>
+        <div className={utilStyles.podTitle}>
+          <h2 id='contact' className={utilStyles.headingLg}>contact</h2>
+          <span className={utilStyles.orngRect}></span>
+        </div>
       </section>
     </Layout>
   );
