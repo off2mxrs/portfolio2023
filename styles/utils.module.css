@@ -48,7 +48,7 @@
     flex-direction: column;
     align-items: flex-end;
     justify-content: flex-end;
-    /* margin-left: 5px; */
+    margin-left: 5px;
   }
 
   .pfp {
@@ -75,12 +75,11 @@
   .name {
     color: white;
     font-style: italic;
-    margin: 5px;
     -webkit-text-stroke: 2px black;
+    margin: 0;
   }
 
   .deskName {
-    top: 81px;
     position: relative;
     font-size: 48px;
   }
@@ -108,6 +107,11 @@
   }
 
 @media (max-width: 480px) {
+    .introPodInner{
+        top: 15px;
+        position: relative;
+    }
+
     .outerPfpSect {
         display: flex;
         height: 250px;
@@ -134,7 +138,19 @@
 }
 
 @media (min-width: 481px) {
+    .roles {
+        margin: 0;
+        display: flex;
+    }
+
     .mobileName {
         display: none;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 600px) {
+    .deskName {
+        font-size: 40px;
+        width: fit-content;
     }
 }
