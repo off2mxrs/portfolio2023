@@ -14,7 +14,7 @@ export default function Post({ postData }) {
       <article>
         <h1 className={utilStyles.headingXl}>{postData.title}</h1>
         <div className={utilStyles.lightText}>
-          <Date dateString={postData.date} />
+        <p>{postData.date}</p>
         </div>
         <Image
                 priority

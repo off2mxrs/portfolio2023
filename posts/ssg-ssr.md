@@ -1,5 +1,6 @@
 ---
-title: 'When to Use Static Generation v.s. Server-side Rendering'
+title: 'server-side rendering'
+category: 'public radio'
 date: '2020-01-02'
 image: '/images/building.jpg'
 ---

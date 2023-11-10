@@ -72,12 +72,12 @@ export default function Home({ allPostsData }) {
           <span className={utilStyles.orngRect}></span>
         </div>
         <ul className={utilStyles.list}>
-          {allPostsData.map(({ id, date, title, image }) => (
+          {allPostsData.map(({ id, date, title, category, image }) => (
             <li className={utilStyles.listItem} key={id}>
-            <Link href={`/posts/${id}`}>{title}</Link>
-            <br />
-            <small className={utilStyles.lightText}>
-              <Date dateString={date} />
+            <Link href={`/posts/${id}`}><h3>{title}</h3></Link>
+            <small className={utilStyles.workLabels}>
+              <p>{category}</p>
+              <p>{date}</p>
             </small>
             <Link href={`/posts/${id}`}>
             <Image

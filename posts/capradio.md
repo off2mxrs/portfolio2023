@@ -1,6 +1,7 @@
 ---
-title: 'CapRadio'
-date: '2022-03-16'
+title: 'capradio'
+category: 'public radio'
+date: '2022 - present'
 image: '/images/capRadio live sign.jpg'
 ---
 

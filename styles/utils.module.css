@@ -20,6 +20,17 @@
     align-items: baseline;
     justify-content: space-between;
   }
+
+  .workLabels {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 8px;
+  }
+
+  .workLabels p {
+    margin: 0;
+    font-size: 14px;
+  }
   
   .headingLg {
     font-size: 2rem;

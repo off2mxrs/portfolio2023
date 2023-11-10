@@ -1,5 +1,6 @@
 ---
-title: 'Two Forms of Pre-rendering'
+title: 'pre-rendering'
+category: 'public radio'
 date: '2020-01-01'
 image: '/images/SH.jpg'
 ---
