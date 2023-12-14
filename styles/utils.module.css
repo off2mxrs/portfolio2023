@@ -125,10 +125,18 @@
     list-style: none;
     padding: 0;
     margin: 0;
+    display: grid;
+    justify-content: center;
   }
   
   .listItem {
     margin: 0 0 1.25rem;
+  }
+
+  .workImg {
+    width: 100%;
+    height: auto;
+    aspect-ratio: .7;
   }
 
 @media (max-width: 480px) {
@@ -150,6 +158,14 @@
     .deskName {
         display: none;
     }
+}
+
+@media (min-width: 769px) {
+  .list {
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 3.2rem;
+    column-gap: 2rem;
+  }
 }
   
 @media (max-width: 768px) {
@@ -178,4 +194,10 @@
         font-size: 40px;
         width: fit-content;
     }
+}
+
+@media (min-width: 992px) {
+  .list {
+    grid-template-columns: repeat(3, 1fr);
+  }
 }

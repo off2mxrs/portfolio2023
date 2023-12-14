@@ -83,9 +83,9 @@ export default function Home({ allPostsData }) {
             <Image
                 priority
                 src={image}
-                className={''}
-                height={600}
-                width={600}
+                className={`${utilStyles.workImg}`}
+                height={1592}
+                width={1200}
                 alt=""
               />
             </Link>
