@@ -38,3 +38,13 @@
     align-items: center;
   }
   
+  @media (min-width: 550px) {
+    .pod {
+      padding: 2rem;
+    }
+  }
+  @media (min-width: 1200px) {
+    .pod {
+      padding: 3rem;
+    }
+  }

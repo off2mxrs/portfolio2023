@@ -160,10 +160,10 @@
     }
 }
 
-@media (min-width: 769px) {
+@media (min-width: 550px) {
   .list {
     grid-template-columns: repeat(2, 1fr);
-    row-gap: 3.2rem;
+    row-gap: 2rem;
     column-gap: 2rem;
   }
 }
@@ -199,5 +199,12 @@
 @media (min-width: 992px) {
   .list {
     grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (min-width: 1200px) {
+  .list {
+    row-gap: 3rem;
+    column-gap: 3rem;
   }
 }

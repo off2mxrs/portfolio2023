@@ -1,5 +1,5 @@
 ---
-title: 'server-side rendering'
+title: 'server-side'
 category: 'public radio'
 date: '2020-01-02'
 image: '/images/building.jpg'
