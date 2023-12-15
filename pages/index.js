@@ -99,6 +99,16 @@ export default function Home({ allPostsData }) {
           <h2 id='resume' className={utilStyles.headingLg}>dev skills</h2>
           <span className={utilStyles.orngRect}></span>
         </div>
+        <Link href={`/posts/`} className={`${utilStyles.resumeContainer}`}><h3>resume</h3>
+        <Image
+                priority
+                src={`/images/resume icon.png`}
+                className={`${utilStyles.resumeIcon}`}
+                height={800}
+                width={800}
+                alt=""
+              />
+        </Link>
       </section>
 
       <section className={`${styles.pod}`}>
