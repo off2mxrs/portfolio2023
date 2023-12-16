@@ -99,16 +99,44 @@ export default function Home({ allPostsData }) {
           <h2 id='resume' className={utilStyles.headingLg}>dev skills</h2>
           <span className={utilStyles.orngRect}></span>
         </div>
-        <Link href={`/posts/`} className={`${utilStyles.resumeContainer}`}><h3>resume</h3>
-        <Image
+        <Link href={`/posts/`} className={`${utilStyles.resumeContainer}`}>
+          <Image
                 priority
                 src={`/images/resume icon.png`}
                 className={`${utilStyles.resumeIcon}`}
-                height={800}
-                width={800}
+                height={400}
+                width={400}
                 alt=""
               />
+          <h3 className={`${utilStyles.resumeLink}`}>resume</h3>
         </Link>
+
+        <div className={`${utilStyles.skillsContainer}`}>
+          <ul className={`${utilStyles.skills}`}>
+            <li><h3>html</h3></li>
+            <li>public radio 2022 - present</li>
+            <li>public radio 2022 - present</li>
+            <li>public radio 2022 - present</li>
+          </ul>
+          <ul className={`${utilStyles.skills}`}>
+            <li><h3>css/scss/less</h3></li>
+            <li>public radio 2022 - present</li>
+            <li>public radio 2022 - present</li>
+            <li>public radio 2022 - present</li>
+          </ul>
+          <ul className={`${utilStyles.skills}`}>
+            <li><h3>javascript</h3></li>
+            <li>public radio 2022 - present</li>
+            <li>public radio 2022 - present</li>
+            <li>public radio 2022 - present</li>
+          </ul>
+          <ul className={`${utilStyles.skills}`}>
+            <li><h3>umbraco</h3></li>
+            <li>public radio 2022 - present</li>
+            <li>public radio 2022 - present</li>
+            <li>public radio 2022 - present</li>
+          </ul>
+        </div>
       </section>
 
       <section className={`${styles.pod}`}>

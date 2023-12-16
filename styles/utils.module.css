@@ -144,6 +144,7 @@
       width: 30px;
       display: flex;
       color: white;
+      margin: 16px 0;
   }
 
   .resumeIcon {
@@ -156,6 +157,16 @@
   .resumeLink {
     color: white;
     font-weight: bold;
+  }
+
+  .skills {
+    list-style: none;
+    padding-inline-start: 0;
+    margin-right: 16px;
+  }
+
+  .skills li:first-child {
+    margin-bottom: 8px;
   }
 
 @media (max-width: 480px) {
@@ -184,6 +195,12 @@
     grid-template-columns: repeat(2, 1fr);
     row-gap: 2rem;
     column-gap: 2rem;
+  }
+
+  .skillsContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
   }
 }
 
