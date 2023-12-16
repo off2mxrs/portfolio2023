@@ -141,17 +141,21 @@
   }
 
   .resumeContainer {
-      width: 25%;
+      width: 30px;
       display: flex;
-      align-items: flex-start;
-      flex-direction: column;
-      flex-wrap: wrap;
+      color: white;
   }
 
   .resumeIcon {
     width: 100%;
     max-width: 100px;
     height: auto;
+    margin-right: 8px;
+  }
+
+  .resumeLink {
+    color: white;
+    font-weight: bold;
   }
 
 @media (max-width: 480px) {
@@ -186,6 +190,14 @@
 @media (min-width: 769px) {
   .headingLg {
     font-size: 3rem;
+  }
+
+    .resumeContainer {
+      width: 40px;
+  }
+
+  .resumeLink {
+    font-size: 2rem;
   }
 }
   
