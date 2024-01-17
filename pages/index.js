@@ -175,11 +175,19 @@ export default function Home({ allPostsData }) {
         </div>
       </section>
 
-      <section className={`${styles.pod}`}>
-        <div className={utilStyles.podTitle}>
-          <h2 id='contact' className={utilStyles.headingLg}>contact</h2>
-          <span className={utilStyles.orngRect}></span>
-        </div>
+      <section className={`${styles.pod} ${utilStyles.contactPod}`}>
+          <div className={utilStyles.podTitle}>
+            <h2 id='contact' className={utilStyles.headingLg}>contact</h2>
+            <span className={utilStyles.orngRect}></span>
+          </div>
+
+          <div className={utilStyles.contactItems}>
+            <ul>
+              <li className={utilStyles.contactLink}>linkedin</li>
+              <li className={utilStyles.contactLink}>instagram</li>
+              <li className={utilStyles.contactLink}>email</li>
+            </ul>
+          </div>      
       </section>
     </Layout>
   );

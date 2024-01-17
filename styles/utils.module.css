@@ -190,6 +190,10 @@
     height: auto;
   }
 
+  .contactPod {
+    background-color: rgba(0, 0, 0, 0.75);
+  }
+
 @media (max-width: 480px) {
     .introPodInner{
         top: 15px;
@@ -250,6 +254,10 @@
 
     .introPod {
         border-radius: 40px 40px 0 0;
+    }
+
+    .contactPod {
+        border-radius: 0 0 40px 40px;
     }
 }
 
