@@ -25,7 +25,7 @@ export default function Home({ allPostsData }) {
       <Head>
         <title>{siteTitle}</title>
       </Head>
-      <header id='intro' className={`${styles.pod} ${styles.noise} ${utilStyles.introPod}`}>
+      <header id='intro' className={`${styles.pod} ${styles.podHover} ${styles.noise} ${utilStyles.introPod}`}>
         <div className={`${utilStyles.introPodInner}`}>
             <p>lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
           <div className={`${utilStyles.introPodLower}`}>
@@ -66,7 +66,7 @@ export default function Home({ allPostsData }) {
         </div>
       </header>
 
-      <section className={`${utilStyles.headingMd} ${utilStyles.padding1px} ${styles.pod} ${styles.noise}`}>
+      <section className={`${utilStyles.headingMd} ${utilStyles.padding1px} ${styles.pod} ${styles.podHover} ${styles.noise}`}>
         <div className={utilStyles.podTitle}>
           <h2 id='work' className={utilStyles.headingLg}>work</h2>
           <span className={utilStyles.orngRect}></span>
@@ -94,7 +94,7 @@ export default function Home({ allPostsData }) {
         </ul>
       </section>
 
-      <section className={`${styles.pod}`}>
+      <section className={`${styles.pod} ${styles.podHover}`}>
         <div className={utilStyles.podTitle}>
           <h2 id='resume' className={utilStyles.headingLg}>dev skills</h2>
           <span className={utilStyles.orngRect}></span>
@@ -139,7 +139,7 @@ export default function Home({ allPostsData }) {
         </div>
       </section>
 
-      <section className={`${styles.pod}`}>
+      <section className={`${styles.pod} ${styles.podHover}`}>
         <div className={utilStyles.podTitle}>
           <h2 id='inspo' className={utilStyles.headingLg}>inspo</h2>
           <span className={utilStyles.orngRect}></span>
