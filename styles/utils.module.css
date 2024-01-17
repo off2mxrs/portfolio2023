@@ -170,6 +170,26 @@
     margin-bottom: 8px;
   }
 
+  .inspo {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 48px;
+  }
+
+  .inspoText {
+    max-width: 275px;
+  }
+
+  .inspoImgCont {
+    margin-left: 8px;
+  }
+
+  .inspoImg {
+    min-width: 90px;
+    width: 284px;
+    height: auto;
+  }
+
 @media (max-width: 480px) {
     .introPodInner{
         top: 15px;
@@ -217,6 +237,10 @@
   .resumeLink {
     font-size: 2rem;
   }
+
+  .inspoImgCont {
+    display: flex;
+   }  
 }
   
 @media (max-width: 768px) {
@@ -261,5 +285,9 @@
   .list {
     row-gap: 3rem;
     column-gap: 3rem;
+  }
+
+  .inspoImg {
+    width: 375px;
   }
 }

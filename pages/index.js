@@ -144,6 +144,35 @@ export default function Home({ allPostsData }) {
           <h2 id='inspo' className={utilStyles.headingLg}>inspo</h2>
           <span className={utilStyles.orngRect}></span>
         </div>
+
+        <div>
+          <div className={utilStyles.inspo}>
+            <div className={utilStyles.inspoText}>
+              <h3>music</h3>
+              <p>public radio   sed do eiusmod tempor incididunt ut labore et dolore</p>
+              <p>magna aliqua. Ut enim ad minim ut labore et dolore</p>
+            </div>
+
+            <div className={utilStyles.inspoImgCont}>
+              <Image
+                priority
+                src={`/images/building.jpg`}
+                className={`${utilStyles.inspoImg}`}
+                height={400}
+                width={400}
+                alt=""
+              />
+              <Image
+                priority
+                src={`/images/sh.jpg`}
+                className={`${utilStyles.inspoImg}`}
+                height={400}
+                width={400}
+                alt=""
+              />
+            </div>
+          </div>
+        </div>
       </section>
 
       <section className={`${styles.pod}`}>
