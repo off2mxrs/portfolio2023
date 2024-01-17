@@ -182,10 +182,22 @@ export default function Home({ allPostsData }) {
           </div>
 
           <div className={utilStyles.contactItems}>
-            <ul>
-              <li className={utilStyles.contactLink}>linkedin</li>
-              <li className={utilStyles.contactLink}>instagram</li>
-              <li className={utilStyles.contactLink}>email</li>
+            <ul className={utilStyles.contactLink}>
+              <li>
+                <Link href={`/#contact`}>
+                  <p>linkedin</p>
+                  <Image
+                    priority
+                    src={`/images/white linkedin logo.png`}
+                    className={`${utilStyles.contactImg}`}
+                    height={400}
+                    width={400}
+                    alt=""
+                  />
+                </Link> 
+              </li>
+              <li>instagram</li>
+              <li>email</li>
             </ul>
           </div>      
       </section>
