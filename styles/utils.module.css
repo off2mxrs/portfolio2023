@@ -211,6 +211,10 @@
     align-items: center;
   }
 
+  .contactLink li p {
+    margin: 0;
+  }
+
   .contactImg {
     margin-left: 12px;
     width: 25px;
