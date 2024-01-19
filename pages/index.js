@@ -136,6 +136,12 @@ export default function Home({ allPostsData }) {
             <li>public radio 2022 - present</li>
             <li>public radio 2022 - present</li>
           </ul>
+          <ul className={`${utilStyles.skills}`}>
+            <li><h3>google analytics</h3></li>
+            <li>public radio 2022 - present</li>
+            <li>public radio 2022 - present</li>
+            <li>public radio 2022 - present</li>
+          </ul>
         </div>
       </section>
 

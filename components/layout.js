@@ -38,16 +38,18 @@ export default function Layout({ children, home }) {
   } else {
     // showPage layout
     return (
+     <div>
       <div className={`${styles.container} ${styles.showPage}`}>
         <header>
           <Navigation />
         </header>
 
-        <main>
+        <main className={styles.showPageContainer}>
           {children}
         </main>
-        <footer>Custom footer for non-home page</footer>
       </div>
+      <footer className={styles.footer}>Custom footer for non-home page</footer>
+     </div>
     );
   }
 }

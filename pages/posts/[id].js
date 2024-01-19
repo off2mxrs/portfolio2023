@@ -11,7 +11,7 @@ export default function Post({ postData }) {
       <Head>
         <title>{postData.title}</title>
       </Head>
-      <article>
+      <article className={utilStyles.showPageContent}>
         <h1 className={utilStyles.headingLg}>{postData.title}</h1>
 
         <div className={utilStyles.workDetails}>
@@ -19,14 +19,26 @@ export default function Post({ postData }) {
                 <p>{postData.category}</p>
                 <p>{postData.date}</p>
               </small>
-          <Image
-                  priority
-                  src={postData.image}
-                  className={''}
-                  height={400}
-                  width={400}
-                  alt=""
-                />
+
+           <div className={utilStyles.projectImgs}>
+            <Image
+                    priority
+                    src={postData.image}
+                    className={utilStyles.firstImg}
+                    height={400}
+                    width={400}
+                    alt=""
+                  />
+            <Image
+                    priority
+                    src={postData.image}
+                    className={''}
+                    height={400}
+                    width={400}
+                    alt=""
+                  />
+           </div>   
+        
         </div>
        
         <div dangerouslySetInnerHTML={{ __html: postData.contentHtml }} />
