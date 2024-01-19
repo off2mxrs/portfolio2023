@@ -224,7 +224,24 @@
   /* Show Page */
 
   .workDetails {
-    max-width: 400px;
+    max-width: 816px;
+  }
+
+  .showPageContent {
+    max-width: 816px;
+  }
+
+  .showPageContent h1 {
+    text-align: center;
+  }
+
+  .projectImgs {
+    display: flex;
+    
+  }
+
+  .firstImg {
+    margin-right: 16px;
   }
 
 @media (max-width: 480px) {
