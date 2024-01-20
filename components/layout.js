@@ -39,10 +39,11 @@ export default function Layout({ children, home }) {
     // showPage layout
     return (
      <div>
-      <div className={`${styles.container} ${styles.showPage}`}>
-        <header>
+      <header className={styles.showPageHead}>
           <Navigation />
         </header>
+
+      <div className={`${styles.container} ${styles.showPage}`}>
 
         <main className={styles.showPageContainer}>
           {children}
