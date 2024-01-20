@@ -224,11 +224,14 @@
   /* Show Page */
 
   .workDetails {
-    max-width: 816px;
+    max-width: 400px;
   }
 
   .showPageContent {
     max-width: 816px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
 
   .showPageContent h1 {
@@ -236,12 +239,12 @@
   }
 
   .projectImgs {
-    display: flex;
+    margin-bottom: 2rem;
     
   }
 
   .firstImg {
-    margin-right: 16px;
+    margin-bottom: 16px;
   }
 
 @media (max-width: 480px) {
@@ -336,6 +339,18 @@
 
   .skillsContainer {
     justify-content: space-between;
+  }
+
+  .workDetails {
+    max-width: 816px;
+  }
+
+  .projectImgs {
+    display: flex; 
+  }
+
+  .firstImg {
+    margin-right: 16px;
   }
 }
 
