@@ -31,7 +31,7 @@ export default function Home({ allPostsData }) {
           <div className={`${utilStyles.introPodLower}`}>
             <div>
               <p>Ut enim ad minim ut labore et dolore.</p>
-              <p>sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+              <p className={`${utilStyles.introPodLower_p}`}>sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
               <div>
                 <ul className={`${utilStyles.roles}`}>
                   <li>Frontend Dev</li>

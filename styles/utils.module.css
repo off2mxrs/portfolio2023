@@ -70,6 +70,10 @@
     align-items: flex-start;
   }
 
+  .introPodLower_p {
+    margin-bottom: 24px;
+  }
+
   .pfpSect {
     display: flex;
     flex-direction: column;
@@ -108,7 +112,7 @@
 
   .deskName {
     position: relative;
-    font-size: 48px;
+    font-size: 64px;
   }
   
   .borderCircle {
@@ -325,6 +329,7 @@
     .roles {
         margin: 0;
         display: flex;
+        margin-bottom: 8px;
     }
 
     .mobileName {
@@ -334,7 +339,7 @@
 
 @media (min-width: 481px) and (max-width: 600px) {
     .deskName {
-        font-size: 40px;
+        font-size: 48px;
         width: fit-content;
     }
 }
