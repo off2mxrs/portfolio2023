@@ -54,6 +54,7 @@
   .introPod {
     height: 375px;
     align-items: center;
+    padding: 1.5rem;
   }
 
   .introPodInner {
@@ -279,6 +280,12 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: flex-start;
+  }
+}
+
+@media (min-width: 655px) {
+  .introPod {
+    padding: 2rem !important;
   }
 }
 
