@@ -32,7 +32,9 @@ export default function Layout({ children, home }) {
         <main>
           {children}
         </main>
-        <footer>est 2023</footer>
+        <footer>
+          <p><em>marshawndavidson.dev est 2021</em></p>
+        </footer>
       </div>
     );
   } else {
@@ -49,7 +51,9 @@ export default function Layout({ children, home }) {
           {children}
         </main>
       </div>
-      <footer className={styles.footer}>Custom footer for non-home page</footer>
+      <footer className={styles.footer}>
+        <p><em>marshawndavidson.dev est 2021</em></p>
+      </footer>
      </div>
     );
   }
