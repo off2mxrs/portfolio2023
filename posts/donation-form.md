@@ -1,8 +1,9 @@
 ---
-title: 'server-side'
+title: 'donation form'
 category: 'public radio'
 date: '2020-01-02'
-image: '/images/building.jpg'
+image: '/images/capDF.png'
+image2: '/images/capDF.png'
 ---
 
 We recommend using **Static Generation** (with and without data) whenever possible because your page can be built once and served by CDN, which makes it much faster than having a server render the page on every request.

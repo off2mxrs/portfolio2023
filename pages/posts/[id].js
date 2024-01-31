@@ -31,7 +31,7 @@ export default function Post({ postData }) {
                   />
             <Image
                     priority
-                    src={postData.image}
+                    src={postData.image2}
                     className={''}
                     height={400}
                     width={400}

@@ -2,7 +2,8 @@
 title: 'sacramenknow'
 category: 'public radio'
 date: '2020-01-01'
-image: '/images/sacKno mobile.png'
+image: '/images/sacKno.png'
+image2: '/images/sacKno modal.png'
 ---
 
 Next.js has two forms of pre-rendering: **Static Generation** and **Server-side Rendering**. The difference is in **when** it generates the HTML for a page.
