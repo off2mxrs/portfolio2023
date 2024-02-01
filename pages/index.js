@@ -68,7 +68,7 @@ export default function Home({ allPostsData }) {
 
       <section className={`${utilStyles.headingMd} ${utilStyles.padding1px} ${styles.pod} ${styles.podHover} ${styles.noise}`}>
         <div className={utilStyles.podTitle}>
-          <h2 id='work' className={utilStyles.headingLg}>capradio</h2>
+          <h2 id='work' className={utilStyles.headingLg}>capradio | npr</h2>
           <span className={utilStyles.orngRect}></span>
         </div>
         <ul className={utilStyles.list}>
@@ -77,7 +77,6 @@ export default function Home({ allPostsData }) {
             <Link href={`/posts/${id}`}><h3>{title}</h3></Link>
             <small className={utilStyles.workLabels}>
               <p>{category}</p>
-              <p>{date}</p>
             </small>
             <Link href={`/posts/${id}`}>
             <Image

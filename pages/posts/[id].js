@@ -17,10 +17,9 @@ export default function Post({ postData }) {
         <div className={utilStyles.workDetails}>
           <small className={utilStyles.workLabels}>
                 <p>{postData.category}</p>
-                <p>{postData.date}</p>
               </small>
 
-           <div className={utilStyles.projectImgs}>
+           {/* <div className={utilStyles.projectImgs}>
             <Image
                     priority
                     src={postData.image}
@@ -37,7 +36,7 @@ export default function Post({ postData }) {
                     width={400}
                     alt=""
                   />
-           </div>   
+           </div>    */}
         
         </div>
        
