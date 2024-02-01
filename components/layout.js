@@ -33,7 +33,7 @@ export default function Layout({ children, home }) {
           {children}
         </main>
         <footer>
-          <p><em>marshawndavidson.dev est 2021</em></p>
+          <p><em>marshawndavidson.dev est 2023</em></p>
         </footer>
       </div>
     );
@@ -52,7 +52,7 @@ export default function Layout({ children, home }) {
         </main>
       </div>
       <footer className={styles.footer}>
-        <p><em>marshawndavidson.dev est 2021</em></p>
+        <p><em>marshawndavidson.dev est 2023</em></p>
       </footer>
      </div>
     );
