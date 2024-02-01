@@ -1,12 +1,12 @@
 ---
-title: 'podcasts & shows'
-category: '/podcasts-shows'
-image: '/images/cap pod&shows.png'
-# date: '2022 - present'
-# image2: '/images/tile podcast.png'
+title: 'election results'
+category: '/election'
+image: '/images/electionresults.png'
+# date: '04-2022'
+# image2: '/images/capDF.png'
 ---
 
-[![donation form](/images/podshows.png "donation form")](https://www.capradio.org/podcasts-shows)
+[![election results](/images/electionresults2.png "election results")](https://www.capradio.org/election/california-midterm-election-results-2022/)
 
 
 We recommend using **Static Generation** (with and without data) whenever possible because your page can be built once and served by CDN, which makes it much faster than having a server render the page on every request.
