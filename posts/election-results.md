@@ -1,9 +1,7 @@
 ---
 title: 'election results'
 category: '/election'
-image: '/images/electionresults.png'
-# date: '04-2022'
-# image2: '/images/capDF.png'
+homeImg: '/images/electionresults.png'
 ---
 
 [![election results](/images/electionresults2.png "election results")](https://www.capradio.org/election/california-midterm-election-results-2022/)

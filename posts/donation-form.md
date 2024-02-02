@@ -1,15 +1,15 @@
 ---
 title: 'donation form'
 category: '/donate.capradio.org'
-image: '/images/capDF.png'
-# date: '04-2022'
-# image2: '/images/capDF.png'
+homeImg: '/images/capDF.png'
 ---
 
 [![donation form](/images/capDF.png "donation form")](https://donate.capradio.org/)
 
 
-We recommend using **Static Generation** (with and without data) whenever possible because your page can be built once and served by CDN, which makes it much faster than having a server render the page on every request.
+ **Donation website for supporters to start/give a monthly or one-time gift to the non-profit radio station. Contains various pages to handle multiple donation use cases.**
+
+[![donation form](/images/personalDonate.png "donation form")](https://www.capradio.org/podcasts-shows)
 
 ## Features
 You can use Static Generation for many types of pages, including:

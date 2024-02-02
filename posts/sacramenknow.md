@@ -1,9 +1,7 @@
 ---
 title: 'sacramenknow'
 category: '/sacramenknow'
-image: '/images/sacKno.png'
-# date: '2020-01-01'
-# image2: '/images/sacKno modal.png'
+homeImg: '/images/sacKno.png'
 ---
 
 [![donation form](/images/sacKno.png "donation form")](https://www.capradio.org/sacramenknow/)

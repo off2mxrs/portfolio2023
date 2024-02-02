@@ -72,7 +72,7 @@ export default function Home({ allPostsData }) {
           <span className={utilStyles.orngRect}></span>
         </div>
         <ul className={utilStyles.list}>
-          {allPostsData.map(({ id, date, title, category, image }) => (
+          {allPostsData.map(({ id, date, title, category, homeImg }) => (
             <li className={utilStyles.listItem} key={id}>
             <Link href={`/posts/${id}`}><h3>{title}</h3></Link>
             <small className={utilStyles.workLabels}>
@@ -81,10 +81,10 @@ export default function Home({ allPostsData }) {
             <Link href={`/posts/${id}`}>
             <Image
                 priority
-                src={image}
+                src={homeImg}
                 className={`${utilStyles.workImg}`}
-                height={1592}
-                width={1200}
+                height={1800}
+                width={1500}
                 alt=""
               />
             </Link>
