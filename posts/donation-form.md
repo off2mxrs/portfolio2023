@@ -4,12 +4,11 @@ category: '/donate.capradio.org'
 homeImg: '/images/capDF.png'
 ---
 
-[![donation form](/images/capDF.png "donation form")](https://donate.capradio.org/)
-
-
  **Donation website for supporters to start/give a monthly or one-time gift to the non-profit radio station. Contains various pages to handle multiple donation use cases.**
 
-[![donation form](/images/personalDonate.png "donation form")](https://www.capradio.org/podcasts-shows)
+[![donation form](/images/capDF.png "donation form")](https://donate.capradio.org/)
+
+[![donation form](/images/personalDonate.png "donation form")](https://donate.capradio.org/additional)
 
 ## Features
 You can use Static Generation for many types of pages, including:

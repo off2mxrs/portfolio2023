@@ -4,10 +4,11 @@ category: '/sacramenknow'
 homeImg: '/images/sacKno.png'
 ---
 
-[![donation form](/images/sacKno.png "donation form")](https://www.capradio.org/sacramenknow/)
-
-
 We recommend using **Static Generation** (with and without data) whenever possible because your page can be built once and served by CDN, which makes it much faster than having a server render the page on every request.
+
+[![sacramenknow](/images/sacKno.png "sacramenknow")](https://www.capradio.org/sacramenknow/)
+
+[![overlay](/images/overlayMob.png "overlay")](https://www.capradio.org)
 
 ## Features
 You can use Static Generation for many types of pages, including:

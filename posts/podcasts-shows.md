@@ -4,12 +4,11 @@ category: '/podcasts-shows'
 homeImg: '/images/capPod&shows.png'
 ---
 
-[![donation form](/images/podshows.png "donation form")](https://www.capradio.org/podcasts-shows)
-
-
 We recommend using **Static Generation** (with and without data) whenever possible because your page can be built once and served by CDN, which makes it much faster than having a server render the page on every request.
 
-[![donation form](/images/personalDonate.png "donation form")](https://www.capradio.org/podcasts-shows)
+[![podcasts and shows](/images/capOrig.png "podcasts and shows")](https://www.capradio.org/podcasts-shows)
+
+[![mid pacific](/images/podshowMob.png "mid pacific")](https://www.capradio.org/news/mid-pacific/)
 
 ## Features
 You can use Static Generation for many types of pages, including:
