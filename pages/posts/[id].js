@@ -12,32 +12,13 @@ export default function Post({ postData }) {
         <title>{postData.title}</title>
       </Head>
       <article className={utilStyles.showPageContent}>
-        <h1 className={utilStyles.headingLg}>{postData.title}</h1>
 
         <div className={utilStyles.workDetails}>
+         <h1 className={utilStyles.headingLg}>{postData.title}</h1>
+
           <small className={utilStyles.workLabels}>
                 <p>{postData.category}</p>
-              </small>
-
-           {/* <div className={utilStyles.projectImgs}>
-            <Image
-                    priority
-                    src={postData.image}
-                    className={utilStyles.firstImg}
-                    height={400}
-                    width={400}
-                    alt=""
-                  />
-            <Image
-                    priority
-                    src={postData.image2}
-                    className={''}
-                    height={400}
-                    width={400}
-                    alt=""
-                  />
-           </div>    */}
-        
+              </small>  
         </div>
        
         <div dangerouslySetInnerHTML={{ __html: postData.contentHtml }} />
