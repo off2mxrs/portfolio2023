@@ -1,24 +1,25 @@
 ---
 title: 'donation form'
 category: '/donate.capradio.org'
-homeImg: '/images/capDF.png'
+homeImg: '/images/nprdonate.png'
 ---
 
- **Donation website for supporters to start/give a monthly or one-time gift to the non-profit radio station. Contains various pages to handle multiple donation use cases.**
+ Donation website for supporters to start/give a monthly or one-time gift to the non-profit radio station. Contains various pages to handle multiple donation use cases.
 
 [![donation form](/images/capDF.png "donation form")](https://donate.capradio.org/)
 
 [![donation form](/images/personalDonate.png "donation form")](https://donate.capradio.org/additional)
 
 ## Features
-You can use Static Generation for many types of pages, including:
+Sleek design with animations for a modern feel and ease of use 24/7 and during fund drive campaigns:
 
-- Marketing pages
-- Blog posts
-- E-commerce product listings 
-- Help and documentation
+- 6 forms with personalization for returning users to increase conversions.
+- Bank Account and Credit Card payment options.
+- E-commerce product listing for a dynamic selection of Thank-You gifts.
 
-You should ask yourself: "Can I pre-render this page **ahead** of a user's request?" If the answer is yes, then you should choose Static Generation.
+- Button and input form fields
+
+- Shadow form process form submissions through api connections via MailChimp, Luminate, and Online Express.
 
 ## Tech
 - JavaScript

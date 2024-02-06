@@ -258,10 +258,23 @@
 
   .showPageContent div:last-child h2 {
     margin-top: 48px;
+    color: #FDDDCF;
   }
 
   .showPageContent a:hover {
     opacity: .9;
+  }
+
+  .showPageContent div:last-child ul:last-child {
+    display: flex;
+    justify-content: flex-start;
+    padding-inline-start: 0px;
+    flex-wrap: wrap;
+    list-style: none;
+  }
+
+  .showPageContent div:last-child ul:last-child li {
+    margin: 0 32px 32px 0;
   }
 
   .projectImgs {
