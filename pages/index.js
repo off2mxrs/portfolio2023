@@ -75,9 +75,6 @@ export default function Home({ allPostsData }) {
           {allPostsData.map(({ id, date, title, category, homeImg }) => (
             <li className={utilStyles.listItem} key={id}>
             <Link href={`/posts/${id}`}><h3>{title}</h3></Link>
-            <small className={utilStyles.workLabels}>
-              <p>{category}</p>
-            </small>
             <Link href={`/posts/${id}`}>
             <Image
                 priority
