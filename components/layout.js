@@ -6,14 +6,14 @@ import Link from 'next/link';
 import Navigation from './nav';
 
 
-export const siteTitle = 'Portfolio';
+export const siteTitle = 'Portfolio Mars';
 
 export default function Layout({ children, home }) {
   if (home) {
     return (
       <div className={styles.container}>
         <Head>
-          <link rel="icon" href="/favicon.ico" />
+          <link rel="icon" href="/images/mars.jpg" />
           <meta
             name="description"
             content=""
@@ -41,6 +41,18 @@ export default function Layout({ children, home }) {
     // showPage layout
     return (
      <div>
+        <Head>
+          <link rel="icon" href="/images/mars.jpg" />
+          <meta
+            name="description"
+            content=""
+          />
+          <meta
+            property="og:image"
+          />
+          <meta name="og:title" content={siteTitle} />
+          <meta name="twitter:card" content="summary_large_image" />
+        </Head>
       <header className={styles.showPageHead}>
           <Navigation />
         </header>
