@@ -1,21 +1,24 @@
 ---
 title: 'podcasts & shows'
 category: '/podcasts-shows'
-homeImg: '/images/capPod&shows.png'
+homeImg: '/images/amoto.jpg'
 ---
 
-We recommend using **Static Generation** (with and without data) whenever possible because your page can be built once and served by CDN, which makes it much faster than having a server render the page on every request.
+Homepage with a gallery of local and NPR affiliate podcasts ands shows for users to browse and follow. Podcast homepage featured in the mobile view.
 
 [![podcasts and shows](/images/capOrig.png "podcasts and shows")](https://www.capradio.org/podcasts-shows)
 
 [![mid pacific](/images/podshowMob.png "mid pacific")](https://www.capradio.org/news/mid-pacific/)
 
 ## Features
-You can use Static Generation for many types of pages, including:
+Podcasts and shows displayed in a standardized format to provide a uniform feel across devices. Podcast homepage banner informs users where they are in an immersive way.
 
-- Marketing pages
-- Blog posts
-- E-commerce product listings 
+- Built with CSS grid and flexbox to create structure. 
+
+- Engineered to accept content from the CMS for seamless customization. 
+
+- *FOLLOW* button toggles in with a dynamic list of links for user to engage with the content. 
+
 - Help and documentation
 
 You should ask yourself: "Can I pre-render this page **ahead** of a user's request?" If the answer is yes, then you should choose Static Generation.

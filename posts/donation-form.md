@@ -13,8 +13,10 @@ homeImg: '/images/nprdonate.png'
 ## Features
 Sleek design with animations for a modern feel and ease of use 24/7 and during fund drive campaigns:
 
-- 6 forms with personalization for returning users to increase conversions.
+- 6 forms with default and personalized views for users to increase or maintain their contributions.
+
 - Bank Account and Credit Card payment options.
+
 - E-commerce product listing for a dynamic selection of Thank-You gifts.
 
 - Button and input form fields
