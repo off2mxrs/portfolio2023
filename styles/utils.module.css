@@ -342,6 +342,11 @@
   .showPageContent .workDetails {
     flex-direction: row;
   }
+
+  .showPageContent div:last-child p:first-child {
+    margin: 8px 0 32px 0;
+  }
+
 }
 
 @media (min-width: 769px) {
@@ -360,14 +365,8 @@
 
   .inspoImgCont {
     display: flex;
-   }  
+   }
 }
-
-/* @media (min-width: 820px) {
-  .headingLg {
-    font-size: 3rem;
-  }
-} */
   
 @media (max-width: 768px) {
     .pfp{
