@@ -1,7 +1,7 @@
 ---
 title: 'election results'
 category: '/election'
-homeImg: '/images/electionresults.png'
+homeImg: '/images/web_election-16-9.png'
 ---
 
 We recommend using **Static Generation** (with and without data) whenever possible because your page can be built once and served by CDN, which makes it much faster than having a server render the page on every request.

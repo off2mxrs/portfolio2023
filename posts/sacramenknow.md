@@ -1,7 +1,7 @@
 ---
 title: 'sacramenknow'
 category: '/sacramenknow'
-homeImg: '/images/sacKno.png'
+homeImg: '/images/towerbridge.jpg'
 ---
 
 We recommend using **Static Generation** (with and without data) whenever possible because your page can be built once and served by CDN, which makes it much faster than having a server render the page on every request.
@@ -11,7 +11,7 @@ We recommend using **Static Generation** (with and without data) whenever possib
 [![overlay](/images/overlayMob.png "overlay")](https://www.capradio.org)
 
 ## Features
-You can use Static Generation for many types of pages, including:
+You can use [Static Generation]() for many types of pages, including:
 
 - Marketing pages
 - Blog posts

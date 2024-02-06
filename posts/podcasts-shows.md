@@ -1,7 +1,7 @@
 ---
 title: 'podcasts & shows'
 category: '/podcasts-shows'
-homeImg: '/images/amoto.jpg'
+homeImg: '/images/amotoTile.png'
 ---
 
 Homepage with a gallery of local and NPR affiliate podcasts ands shows for users to browse and follow. Podcast homepage featured in the mobile view.
