@@ -55,7 +55,7 @@ export default function Home({ allPostsData }) {
                         height: 'auto',
                         objectFit: 'cover',
                         aspectRatio: '0.8',
-                        objectPosition: `55%`,
+                        // objectPosition: `55%`,
                         // borderRadius: 75,
                       }}
                     />
@@ -109,34 +109,39 @@ export default function Home({ allPostsData }) {
 
         <div className={`${utilStyles.skillsContainer}`}>
           <ul className={`${utilStyles.skills}`}>
-            <li><h3>html</h3></li>
-            <li>public radio 2022 - present</li>
-            <li>public radio 2022 - present</li>
-            <li>public radio 2022 - present</li>
+            <li><h3>languages</h3></li>
+            <li>html</li>
+            <li>css | scss | less</li>
+            <li>javascript | typescript</li>
+            <li>python</li>
+            <li>jsx</li>
           </ul>
           <ul className={`${utilStyles.skills}`}>
-            <li><h3>css/scss/less</h3></li>
-            <li>public radio 2022 - present</li>
-            <li>public radio 2022 - present</li>
-            <li>public radio 2022 - present</li>
+            <li><h3>frameworks</h3></li>
+            <li>react</li>
+            <li>angular</li>
+            <li>docker</li>
+            <li>node | express</li>
+            <li></li>
           </ul>
           <ul className={`${utilStyles.skills}`}>
-            <li><h3>javascript</h3></li>
-            <li>public radio 2022 - present</li>
-            <li>public radio 2022 - present</li>
-            <li>public radio 2022 - present</li>
+            <li><h3>systems</h3></li>
+            <li>umbraco</li>
+            <li>mailchimp</li>
+            <li>blackbaud</li>
+            <li>aws</li>
           </ul>
           <ul className={`${utilStyles.skills}`}>
-            <li><h3>umbraco</h3></li>
-            <li>public radio 2022 - present</li>
-            <li>public radio 2022 - present</li>
-            <li>public radio 2022 - present</li>
+            <li><h3>database</h3></li>
+            <li>mangodb</li>
+            <li>sql</li>
+            <li></li>
           </ul>
           <ul className={`${utilStyles.skills}`}>
-            <li><h3>google analytics</h3></li>
-            <li>public radio 2022 - present</li>
-            <li>public radio 2022 - present</li>
-            <li>public radio 2022 - present</li>
+            <li><h3>seo & analytics</h3></li>
+            <li>google analytics ga4 | ua</li>
+            <li>google tag manager</li>
+            <li>google ad manager</li>
           </ul>
         </div>
       </section>

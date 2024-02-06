@@ -440,10 +440,6 @@
     grid-template-columns: repeat(3, 1fr);
   }
 
-  .skillsContainer {
-    justify-content: space-between;
-  }
-
   .workDetails {
     max-width: 816px;
   }
