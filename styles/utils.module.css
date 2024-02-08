@@ -269,6 +269,11 @@
     flex-direction: column;
   }
 
+  .showPageContent h1,
+  .showPageContent h2 {
+    -webkit-text-stroke: 0;
+  }
+
   .showPageContent .workDetails {
     display: flex;
     align-items: center;
