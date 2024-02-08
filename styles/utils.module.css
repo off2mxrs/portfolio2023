@@ -37,6 +37,7 @@
     font-size: 2rem;
     margin: 1rem 0;
     color: #FDDDCF;
+    -webkit-text-stroke: 2px black
   }
 
   .orngRect {
@@ -108,6 +109,7 @@
     font-style: italic;
     -webkit-text-stroke: 2px black;
     margin: 0;
+    text-decoration: underline black 1px
   }
 
   .deskName {
@@ -167,6 +169,14 @@
   }
 
   .resumeContainer {
+    background: #DE5230;
+    border-radius: 16px;
+    width: 60px;
+    margin: 8px;
+    height: 66px;
+  }
+
+  .resumeFlex {
       width: 30px;
       display: flex;
       color: white;
@@ -270,7 +280,6 @@
     background: #de5230;
     width: 40%;
     min-width: 150px;
-    margin-left: 25px;
     justify-content: center;
     padding: 4px;
   }
@@ -368,6 +377,10 @@
     flex-direction: row;
   }
 
+  .showPageContent .workDetails .workLabels {
+    margin-left: 25px;
+  }
+
   .showPageContent div:last-child p:first-child {
     margin: 8px 0 32px 0;
   }
@@ -380,7 +393,13 @@
     font-size: 3rem;
   }
 
-    .resumeContainer {
+  .resumeContainer {
+    width: 86px;
+    margin: 8px;
+    height: 80px;
+  }
+
+    .resumeFlex {
       width: 40px;
   }
 

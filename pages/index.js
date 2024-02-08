@@ -95,7 +95,9 @@ export default function Home({ allPostsData }) {
           <h2 id='resume' className={utilStyles.headingLg}>dev skills</h2>
           <span className={utilStyles.orngRect}></span>
         </div>
-        <Link href={`/posts/`} className={`${utilStyles.resumeContainer}`}>
+
+        <div className={utilStyles.resumeContainer}>
+        <Link href={`/posts/`} className={`${utilStyles.resumeFlex}`}>
           <Image
                 priority
                 src={`/images/resume icon.png`}
@@ -106,6 +108,7 @@ export default function Home({ allPostsData }) {
               />
           <h3 className={`${utilStyles.resumeLink}`}>resume</h3>
         </Link>
+        </div>
 
         <div className={`${utilStyles.skillsContainer}`}>
           <ul className={`${utilStyles.skills}`}>
