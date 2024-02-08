@@ -193,42 +193,42 @@ export default function Home({ allPostsData }) {
               <li>
                 <Link href={`/#contact`}>
                   <p>linkedin</p>
-                  <Image
+                  {/* <Image
                     priority
                     src={`/images/white linkedin logo.png`}
                     className={`${utilStyles.contactImg}`}
                     height={400}
                     width={400}
                     alt=""
-                  />
-                </Link> 
-              </li>
-
-              <li>
-                <Link href={`/#contact`}>
-                  <p>instagram</p>
-                  <Image
-                    priority
-                    src={`/images/white linkedin logo.png`}
-                    className={`${utilStyles.contactImg}`}
-                    height={400}
-                    width={400}
-                    alt=""
-                  />
+                  /> */}
                 </Link> 
               </li>
 
               <li>
                 <Link href={`/#contact`}>
                   <p>email</p>
-                  <Image
+                  {/* <Image
                     priority
                     src={`/images/white linkedin logo.png`}
                     className={`${utilStyles.contactImg}`}
                     height={400}
                     width={400}
                     alt=""
-                  />
+                  /> */}
+                </Link> 
+              </li>
+
+              <li>
+                <Link href={`/#contact`}>
+                  <p>github</p>
+                  {/* <Image
+                    priority
+                    src={`/images/white linkedin logo.png`}
+                    className={`${utilStyles.contactImg}`}
+                    height={400}
+                    width={400}
+                    alt=""
+                  /> */}
                 </Link> 
               </li>
             </ul>
