@@ -168,6 +168,9 @@
     opacity: .8;
   }
 
+
+  /* RESUME */
+
   .resumeContainer {
     background: #DE5230;
     border-radius: 16px;
@@ -205,6 +208,31 @@
   .skills li:first-child {
     margin-bottom: 8px;
   }
+
+  /* ROSES */
+
+  .roseP {
+    width: 100%;
+    position: relative;
+    bottom: 28px;
+  }
+
+  .rosesImgCont {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+    width: 100%;
+    flex-wrap: wrap;
+  }
+
+  .rosesImg {
+    width: 800px;
+    height: auto;
+    margin-bottom: 48px;
+    margin-right: 24px;
+  }
+
+  /* INSPO */
 
   .inspoCont {
     max-width: 1600px;

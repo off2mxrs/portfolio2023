@@ -109,7 +109,7 @@ export default function Home({ allPostsData }) {
           <h3 className={`${utilStyles.resumeLink}`}>resume</h3>
         </Link>
         </div>
-
+        
         <div className={`${utilStyles.skillsContainer}`}>
           <ul className={`${utilStyles.skills}`}>
             <li><h3>languages</h3></li>
@@ -148,6 +148,42 @@ export default function Home({ allPostsData }) {
           </ul>
         </div>
       </section>
+
+      <section className={`${styles.pod} ${styles.podHover}`}>
+        <div className={utilStyles.podTitle}>
+          <h2 id='roses' className={utilStyles.headingLg}>roses</h2>
+          <span className={utilStyles.orngRect}></span>
+
+          <p className={utilStyles.roseP}><em>rose, bud, thorns is a way to celebrate, look towards, and reflect on challenges.</em></p> 
+
+          <div className={`${utilStyles.rosesImgCont}`}>
+        <Image
+                priority
+                src={`/images/sacKno.png`}
+                className={`${utilStyles.rosesImg}`}
+                height={300}
+                width={400}
+                alt=""
+              />
+        <Image
+                priority
+                src={`/images/sacKno.png`}
+                className={`${utilStyles.rosesImg}`}
+                height={300}
+                width={400}
+                alt=""
+              />
+        <Image
+                priority
+                src={`/images/sacKno.png`}
+                className={`${utilStyles.rosesImg}`}
+                height={300}
+                width={400}
+                alt=""
+              />
+          </div>
+        </div>
+        </section>
 
       <section className={`${styles.pod} ${styles.podHover}`}>
         <div className={utilStyles.podTitle}>
