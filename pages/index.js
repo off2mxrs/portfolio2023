@@ -154,12 +154,12 @@ export default function Home({ allPostsData }) {
           <h2 id='roses' className={utilStyles.headingLg}>roses</h2>
           <span className={utilStyles.orngRect}></span>
 
-          <p className={utilStyles.roseP}><em>rose, bud, thorns is a way to celebrate, look towards, and reflect on challenges.</em></p> 
+          <p className={utilStyles.roseP}><em>rose, bud, thorns is a way to celebrate, look forward, and reflect on challenges.</em></p> 
 
           <div className={`${utilStyles.rosesImgCont}`}>
         <Image
                 priority
-                src={`/images/sacKno.png`}
+                src={`/images/seo.png`}
                 className={`${utilStyles.rosesImg}`}
                 height={300}
                 width={400}
@@ -167,7 +167,7 @@ export default function Home({ allPostsData }) {
               />
         <Image
                 priority
-                src={`/images/sacKno.png`}
+                src={`/images/conversions.png`}
                 className={`${utilStyles.rosesImg}`}
                 height={300}
                 width={400}
@@ -175,7 +175,7 @@ export default function Home({ allPostsData }) {
               />
         <Image
                 priority
-                src={`/images/sacKno.png`}
+                src={`/images/ga.png`}
                 className={`${utilStyles.rosesImg}`}
                 height={300}
                 width={400}
