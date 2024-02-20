@@ -158,9 +158,9 @@ export default function Home({ allPostsData }) {
         <div className={utilStyles.inspoCont}>
           <div className={utilStyles.inspo}>
             <div className={utilStyles.inspoText}>
-              <h3>music</h3>
-              <p>public radio   sed do eiusmod tempor incididunt ut labore et dolore</p>
-              <p>magna aliqua. Ut enim ad minim ut labore et dolore</p>
+              <h3>dance | music</h3>
+              <p>these two are my first passions awakened. A minute hardly slips by without me "bustin a move" or "hummin a tune" (mentally counts too!). </p>
+              <p>i am totally enamored with <em>movers</em> and <em>vocalists</em>. these are my superheroes.</p>
             </div>
 
             <div className={utilStyles.inspoImgCont}>
@@ -185,12 +185,40 @@ export default function Home({ allPostsData }) {
   
           <div className={`${utilStyles.inspo} ${utilStyles.inspoRev}`}>
             <div className={`${utilStyles.inspoText} ${utilStyles.inspoTextRev}`}>
-              <h3>rpg</h3>
+              <h3>creative | engineer</h3>
+              <p>i am a complete tinker-er. so, iteration comes natural (at times tooo natural). </p>
+              <p>im constantly hopping from digital and physical projects: designing, to event coordinating, to multimedia content, to branding, to aquascaping, to chefing it up! </p>
+              <p>the list is ever growing! it was only right that i made my stake in the world of software engineering. </p>
+            </div>
+
+            <div className={`${utilStyles.inspoImgCont} ${utilStyles.inspoImgContRev}`}>
+              <Image
+                priority
+                src={`/images/building.jpg`}
+                className={`${utilStyles.inspoImg}`}
+                height={400}
+                width={400}
+                alt=""
+              />
+              <Image
+                priority
+                src={`/images/sh.jpg`}
+                className={`${utilStyles.inspoImg}`}
+                height={400}
+                width={400}
+                alt=""
+              />
+            </div>
+          </div>
+
+          <div className={`${utilStyles.inspo}`}>
+            <div className={`${utilStyles.inspoText}`}>
+              <h3>fantasy | rpg</h3>
               <p>public radio   sed do eiusmod tempor incididunt ut labore et dolore</p>
               <p>magna aliqua. Ut enim ad minim ut labore et dolore</p>
             </div>
 
-            <div className={`${utilStyles.inspoImgCont} ${utilStyles.inspoImgContRev}`}>
+            <div className={`${utilStyles.inspoImgCont}`}>
               <Image
                 priority
                 src={`/images/building.jpg`}
