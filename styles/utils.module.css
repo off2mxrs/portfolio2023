@@ -19,6 +19,7 @@
     flex-wrap: wrap;
     align-items: baseline;
     justify-content: space-between;
+    margin-bottom: 32px;
   }
 
   .workLabels {
@@ -205,10 +206,14 @@
     margin-bottom: 8px;
   }
 
+  .inspoCont {
+    max-width: 1250px;
+  }
+
   .inspo {
     display: flex;
     justify-content: space-between;
-    margin-bottom: 48px;
+    margin-bottom: 80px;
   }
 
   .inspoText {
@@ -217,12 +222,25 @@
 
   .inspoImgCont {
     margin-left: 8px;
+    min-width: 150px;
   }
 
   .inspoImg {
     min-width: 90px;
     width: 284px;
     height: auto;
+  }
+
+  .inspoRev {
+    flex-direction: row-reverse;
+  }
+
+  .inspoTextRev {
+    padding-left: 16px;
+  }
+
+  .inspoImgContRev {
+    margin-left: 0;
   }
 
   .contactPod {
@@ -414,6 +432,19 @@
   .inspoImgCont {
     display: flex;
    }
+
+   .inspoRev {
+    flex-direction: row-reverse;
+  }
+
+  .inspoTextRev {
+    padding-left: 16px;
+  }
+
+  .inspoImgContRev {
+    margin-left: 0;
+    margin-right: 8px;
+  }
 }
   
 @media (max-width: 768px) {

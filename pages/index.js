@@ -155,7 +155,7 @@ export default function Home({ allPostsData }) {
           <span className={utilStyles.orngRect}></span>
         </div>
 
-        <div>
+        <div className={utilStyles.inspoCont}>
           <div className={utilStyles.inspo}>
             <div className={utilStyles.inspoText}>
               <h3>music</h3>
@@ -164,6 +164,33 @@ export default function Home({ allPostsData }) {
             </div>
 
             <div className={utilStyles.inspoImgCont}>
+              <Image
+                priority
+                src={`/images/building.jpg`}
+                className={`${utilStyles.inspoImg}`}
+                height={400}
+                width={400}
+                alt=""
+              />
+              <Image
+                priority
+                src={`/images/sh.jpg`}
+                className={`${utilStyles.inspoImg}`}
+                height={400}
+                width={400}
+                alt=""
+              />
+            </div>
+          </div>
+  
+          <div className={`${utilStyles.inspo} ${utilStyles.inspoRev}`}>
+            <div className={`${utilStyles.inspoText} ${utilStyles.inspoTextRev}`}>
+              <h3>rpg</h3>
+              <p>public radio   sed do eiusmod tempor incididunt ut labore et dolore</p>
+              <p>magna aliqua. Ut enim ad minim ut labore et dolore</p>
+            </div>
+
+            <div className={`${utilStyles.inspoImgCont} ${utilStyles.inspoImgContRev}`}>
               <Image
                 priority
                 src={`/images/building.jpg`}
@@ -209,7 +236,7 @@ export default function Home({ allPostsData }) {
 
               <li>
                 <Link href={`/#contact`}>
-                  <p>email</p>
+                  <p>github</p>
                   {/* <Image
                     priority
                     src={`/images/white linkedin logo.png`}
@@ -223,7 +250,7 @@ export default function Home({ allPostsData }) {
 
               <li>
                 <Link href={`/#contact`}>
-                  <p>github</p>
+                  <p>email</p>
                   {/* <Image
                     priority
                     src={`/images/white linkedin logo.png`}
