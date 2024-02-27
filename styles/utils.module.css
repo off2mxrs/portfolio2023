@@ -72,6 +72,10 @@
     align-items: flex-start;
   }
 
+  .introPodLower div p:first-child {
+    margin-top: 0px;
+  }
+
   .introPodLower_p {
     margin-bottom: 24px;
   }

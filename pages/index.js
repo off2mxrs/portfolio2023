@@ -27,11 +27,11 @@ export default function Home({ allPostsData }) {
       </Head>
       <header id='intro' className={`${styles.pod} ${styles.podHover} ${styles.noise} ${utilStyles.introPod}`}>
         <div className={`${utilStyles.introPodInner}`}>
-            <p>lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+            <p>frontend development has allowed me to align all of my creative energy into one refined goal of curating experiences through digital products.</p>
           <div className={`${utilStyles.introPodLower}`}>
             <div>
-              <p>Ut enim ad minim ut labore et dolore.</p>
-              <p className={`${utilStyles.introPodLower_p}`}>sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+              <p>coding came to me in '14. then, took off with my work at capradio.</p>
+              <p className={`${utilStyles.introPodLower_p}`}>i'm mars btw. thanks for popping in on my 'lil planet!</p>
               <div>
                 <ul className={`${utilStyles.roles}`}>
                   <li>Frontend Dev</li>
@@ -195,7 +195,7 @@ export default function Home({ allPostsData }) {
           <div className={utilStyles.inspo}>
             <div className={utilStyles.inspoText}>
               <h3>dance | music</h3>
-              <p>these two are my first passions awakened. A minute hardly slips by without me "bustin a move" or "hummin a tune" (mentally counts too!). </p>
+              <p>these two were my first passions awakened. A minute hardly slips by without me "bustin a move" or "hummin a tune" (mentally counts too!). </p>
               <p>i am totally enamored with <em>movers</em> and <em>vocalists</em>. these are my superheroes.</p>
             </div>
 
@@ -222,7 +222,7 @@ export default function Home({ allPostsData }) {
           <div className={`${utilStyles.inspo} ${utilStyles.inspoRev}`}>
             <div className={`${utilStyles.inspoText} ${utilStyles.inspoTextRev}`}>
               <h3>creative | engineer</h3>
-              <p>i am a complete tinker-er. so, iteration comes natural (at times tooo natural). </p>
+              <p>i am a complete tinker-er. so, iteration comes naturally (at times tooo naturally). </p>
               <p>im constantly hopping from digital and physical projects: designing, to event coordinating, to multimedia content, to branding, to aquascaping, to chefing it up! </p>
               <p>the list is ever growing! it was only right that i made my stake in the world of software engineering. </p>
             </div>
