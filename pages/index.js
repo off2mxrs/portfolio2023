@@ -27,11 +27,11 @@ export default function Home({ allPostsData }) {
       </Head>
       <header id='intro' className={`${styles.pod} ${styles.podHover} ${styles.noise} ${utilStyles.introPod}`}>
         <div className={`${utilStyles.introPodInner}`}>
-            <p>frontend development has become my channel for harmonizing all of my creative energy toward one refined objective: curating experiences through digital products.</p>
+            <p>Frontend development has become my channel for harmonizing all of my creative energy toward one refined objective: curating experiences through digital products.</p>
           <div className={`${utilStyles.introPodLower}`}>
             <div>
-              <p>theres no better joy than being part of a team that leaves a meaningful imprint on the greater community.</p>
-              <p className={`${utilStyles.introPodLower_p}`}>i'm an artist through & through - design thinking keeps me true.</p>
+              <p>Theres no better joy than being part of a team that leaves a meaningful imprint on the greater community.</p>
+              <p className={`${utilStyles.introPodLower_p}`}>I'm an artist through & through - design thinking keeps me true.</p>
               <div>
                 <ul className={`${utilStyles.roles}`}>
                   <li>dev</li>
@@ -155,7 +155,7 @@ export default function Home({ allPostsData }) {
           <h2 id='roses' className={utilStyles.headingLg}>roses</h2>
           <span className={utilStyles.orngRect}></span>
 
-          <p className={utilStyles.roseP}><em>rose, bud, thorns is a way to celebrate, look forward, and reflect on challenges.</em></p> 
+          <p className={utilStyles.roseP}><em>Rose, Bud, Thorns is a way to celebrate, look forward, and reflect on challenges.</em></p> 
 
           <div className={`${utilStyles.rosesImgCont}`}>
         <Image
