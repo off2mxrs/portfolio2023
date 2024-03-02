@@ -27,16 +27,17 @@ export default function Home({ allPostsData }) {
       </Head>
       <header id='intro' className={`${styles.pod} ${styles.podHover} ${styles.noise} ${utilStyles.introPod}`}>
         <div className={`${utilStyles.introPodInner}`}>
-            <p>frontend development has allowed me to align all of my creative energy into one refined goal of curating experiences through digital products.</p>
+            <p>frontend development has become my channel for harmonizing all of my creative energy toward one refined objective: curating experiences through digital products.</p>
           <div className={`${utilStyles.introPodLower}`}>
             <div>
-              <p>coding came to me in '14. then, took off with my work at capradio.</p>
-              <p className={`${utilStyles.introPodLower_p}`}>i'm mars btw. thanks for popping in on my 'lil planet!</p>
+              <p>theres no better joy than being part of a team that leaves a meaningful imprint on the greater community.</p>
+              <p className={`${utilStyles.introPodLower_p}`}>i'm an artist through & through - design thinking keeps me true.</p>
               <div>
                 <ul className={`${utilStyles.roles}`}>
-                  <li>Frontend Dev</li>
-                  <li>Event Curator</li>
-                  <li>Dancer</li>
+                  <li>dev</li>
+                  <li>curator</li>
+                  <li>dancer</li>
+                  <li>multimedia</li>
                 </ul>
                 <h1 className={`${utilStyles.name} ${utilStyles.deskName}`}>{name}</h1>
               </div>
@@ -195,7 +196,7 @@ export default function Home({ allPostsData }) {
           <div className={utilStyles.inspo}>
             <div className={utilStyles.inspoText}>
               <h3>dance | music</h3>
-              <p>these two were my first passions awakened. A minute hardly slips by without me "bustin a move" or "hummin a tune" (mentally counts too!). </p>
+              <p>Ah my first passions awakened. A minute hardly slips by without me "bustin a move" or "hummin a tune" (mentally counts too!). </p>
               <p>i am totally enamored with <em>movers</em> and <em>vocalists</em>. these are my superheroes.</p>
             </div>
 
