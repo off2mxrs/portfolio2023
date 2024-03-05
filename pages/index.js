@@ -285,45 +285,21 @@ export default function Home({ allPostsData }) {
           <div className={utilStyles.contactItems}>
             <ul className={utilStyles.contactLink}>
               <li>
-                <Link href={`/#contact`}>
+                <a href='https://www.linkedin.com/in/marshawndavidson' target="_blank" rel="noopener noreferrer">
                   <p>linkedin</p>
-                  {/* <Image
-                    priority
-                    src={`/images/white linkedin logo.png`}
-                    className={`${utilStyles.contactImg}`}
-                    height={400}
-                    width={400}
-                    alt=""
-                  /> */}
-                </Link> 
+                </a> 
               </li>
 
               <li>
-                <Link href={`/#contact`}>
+                <a href='https://github.com/off2mxrs' target="_blank" rel="noopener noreferrer">
                   <p>github</p>
-                  {/* <Image
-                    priority
-                    src={`/images/white linkedin logo.png`}
-                    className={`${utilStyles.contactImg}`}
-                    height={400}
-                    width={400}
-                    alt=""
-                  /> */}
-                </Link> 
+                </a> 
               </li>
 
               <li>
-                <Link href={`/#contact`}>
+                <a href='mailto:marshawndavidson@gmail.com?subject=[Portfolio] Hello Mars!'>
                   <p>email</p>
-                  {/* <Image
-                    priority
-                    src={`/images/white linkedin logo.png`}
-                    className={`${utilStyles.contactImg}`}
-                    height={400}
-                    width={400}
-                    alt=""
-                  /> */}
-                </Link> 
+                </a> 
               </li>
             </ul>
           </div>      
