@@ -31,7 +31,7 @@ export default function Home({ allPostsData }) {
           <div className={`${utilStyles.introPodLower}`}>
             <div>
               <p>Theres no better joy than being part of a team that leaves a meaningful imprint on the greater community.</p>
-              <p className={`${utilStyles.introPodLower_p}`}>I'm an artist through & through - design thinking keeps me true.</p>
+              <p className={`${utilStyles.introPodLower_p}`}>I'm an artist thru & thru. Design thinking keeps me true! - Welcome ;)</p>
               <div>
                 <ul className={`${utilStyles.roles}`}>
                   <li>dev</li>
@@ -196,8 +196,8 @@ export default function Home({ allPostsData }) {
           <div className={utilStyles.inspo}>
             <div className={utilStyles.inspoText}>
               <h3>dance | music</h3>
-              <p>Ah my first passions awakened. A minute hardly slips by without me "bustin a move" or "hummin a tune" (mentally counts too!). </p>
-              <p>I am totally enamored with <em>movers</em> and <em>vocalists</em>. these are my superheroes.</p>
+              <p>Ah, my first passions awakened. A minute hardly slips by without me "bustin' a move" or "hummin' a tune" (mentally counts too!). </p>
+              <p>I am totally enamored with <em>movers</em> and <em>vocalists</em>. They are my superheroes.</p>
             </div>
 
             <div className={utilStyles.inspoImgCont}>
@@ -224,7 +224,7 @@ export default function Home({ allPostsData }) {
             <div className={`${utilStyles.inspoText} ${utilStyles.inspoTextRev}`}>
               <h3>creative | engineer</h3>
               <p>I am a complete tinkerer. Iteration just comes naturally. I pride myself on being very thorough (<em>ok I guess a "perfectionist"</em>).</p>
-              <p>I'm constantly inspired. Always bouncing between digital and physical projects. My list is ever-growing! Somehow I even found my way into aquascaping.</p>
+              <p>I'm constantly inspired. Always bouncing between digital and physical projects. My list is ever-growing! Somehow, I even found my way into aquascaping.</p>
             </div>
 
             <div className={`${utilStyles.inspoImgCont} ${utilStyles.inspoImgContRev}`}>
@@ -250,8 +250,8 @@ export default function Home({ allPostsData }) {
           <div className={`${utilStyles.inspo}`}>
             <div className={`${utilStyles.inspoText}`}>
               <h3>travel | fantasy rpg</h3>
-              <p>public radio   sed do eiusmod tempor incididunt ut labore et dolore</p>
-              <p>magna aliqua. Ut enim ad minim ut labore et dolore</p>
+              <p>I can't help but view the world through my own special lens. I embrace the unique subtleties of man-made and natural environments everywhere I go. </p>
+              <p>I want to say this comes from my admiration of fantasy worlds. I've racked up countless hours engaged in content with swords, greenery, magic, and whatnot.</p>
             </div>
 
             <div className={`${utilStyles.inspoImgCont}`}>
