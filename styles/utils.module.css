@@ -54,6 +54,7 @@
   }
 
   .introPod {
+    max-width: 675px;
     height: 375px;
     align-items: center;
     padding: 1rem;
@@ -94,6 +95,10 @@
 
   .pfp {
     max-width: 200px;
+    border-bottom: 3px solid #000;
+    border-right: #d45c37 6px solid;
+    border-radius: 40px;
+    filter: drop-shadow(0 0 0.15rem black);
   }
 
   .roles {
