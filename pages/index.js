@@ -124,7 +124,6 @@ export default function Home({ allPostsData }) {
             <li><h3>frameworks</h3></li>
             <li>react</li>
             <li>angular</li>
-            <li>docker</li>
             <li>node | express</li>
             <li></li>
           </ul>
@@ -134,11 +133,13 @@ export default function Home({ allPostsData }) {
             <li>mailchimp</li>
             <li>blackbaud</li>
             <li>aws</li>
+            <li>docker</li>
           </ul>
           <ul className={`${utilStyles.skills}`}>
             <li><h3>database</h3></li>
             <li>mangodb</li>
-            <li>sql</li>
+            <li>heroku</li>
+            <li>mysql</li>
             <li></li>
           </ul>
           <ul className={`${utilStyles.skills}`}>
@@ -146,6 +147,7 @@ export default function Home({ allPostsData }) {
             <li>google analytics ga4 | ua</li>
             <li>google tag manager</li>
             <li>google ad manager</li>
+            <li>cloudflare</li>
           </ul>
         </div>
       </section>
@@ -155,7 +157,7 @@ export default function Home({ allPostsData }) {
           <h2 id='roses' className={utilStyles.headingLg}>roses</h2>
           <span className={utilStyles.orngRect}></span>
 
-          <p className={utilStyles.roseP}><em>Rose, Bud, Thorns is a way to celebrate, look forward, and reflect on challenges.</em></p> 
+          <p className={utilStyles.roseP}><em>Rose, Bud, Thorns is a way to celebrate, look forward, and reflect.</em></p> 
 
           <div className={`${utilStyles.rosesImgCont}`}>
         <Image
@@ -195,7 +197,7 @@ export default function Home({ allPostsData }) {
         <div className={utilStyles.inspoCont}>
           <div className={utilStyles.inspo}>
             <div className={utilStyles.inspoText}>
-              <h3>dance | music</h3>
+              <h3>Dance | Music</h3>
               <p>Ah, my first passions awakened. A minute hardly slips by without me "bustin' a move" or "hummin' a tune" (mentally counts too!). </p>
               <p>I am totally enamored with <em>movers</em> and <em>vocalists</em>. They are my superheroes.</p>
             </div>
@@ -222,7 +224,7 @@ export default function Home({ allPostsData }) {
   
           <div className={`${utilStyles.inspo} ${utilStyles.inspoRev}`}>
             <div className={`${utilStyles.inspoText} ${utilStyles.inspoTextRev}`}>
-              <h3>creative | engineer</h3>
+              <h3>Engineer | Creative </h3>
               <p>I am a complete tinkerer. Iteration just comes naturally. I pride myself on being very thorough (<em>ok I guess a "perfectionist"</em>).</p>
               <p>I'm constantly inspired. Always bouncing between digital and physical projects. My list is ever-growing! Somehow, I even found my way into aquascaping.</p>
             </div>
@@ -249,7 +251,7 @@ export default function Home({ allPostsData }) {
 
           <div className={`${utilStyles.inspo}`}>
             <div className={`${utilStyles.inspoText}`}>
-              <h3>travel | fantasy rpg</h3>
+              <h3>Travel | Fantasy</h3>
               <p>I can't help but view the world through my own special lens. I embrace the unique subtleties of man-made and natural environments everywhere I go. </p>
               <p>I want to say this comes from my admiration of fantasy worlds. I've racked up countless hours engaged in content with swords, greenery, magic, and whatnot.</p>
             </div>
