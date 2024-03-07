@@ -44,8 +44,9 @@
   .orngRect {
     width: 20%;
     display: block;
-    height: 25px;
+    height: 16px;
     background-color: #DE5230;
+    border: 2px solid black;
   }
   
   .headingMd {
