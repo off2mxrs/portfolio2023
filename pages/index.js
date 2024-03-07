@@ -98,7 +98,7 @@ export default function Home({ allPostsData }) {
         </div>
 
         <div className={utilStyles.resumeContainer}>
-        <Link href={`/posts/`} className={`${utilStyles.resumeFlex}`}>
+        <Link href={`https://docs.google.com/document/d/1U6mxP124SfAGQneyc8BB8VLh7jybvqnuVFP4H_hf7Ec/edit?usp=sharing`} target="_blank" rel="noopener noreferrer" className={`${utilStyles.resumeFlex}`}>
           <Image
                 priority
                 src={`/images/resume icon.png`}
