@@ -205,7 +205,7 @@ export default function Home({ allPostsData }) {
             <div className={utilStyles.inspoImgCont}>
               <Image
                 priority
-                src={`/images/building.jpg`}
+                src={`/images/dance.jpg`}
                 className={`${utilStyles.inspoImg}`}
                 height={400}
                 width={400}
@@ -213,7 +213,7 @@ export default function Home({ allPostsData }) {
               />
               <Image
                 priority
-                src={`/images/sh.jpg`}
+                src={`/images/disco.jpg`}
                 className={`${utilStyles.inspoImg}`}
                 height={400}
                 width={400}
@@ -232,7 +232,7 @@ export default function Home({ allPostsData }) {
             <div className={`${utilStyles.inspoImgCont} ${utilStyles.inspoImgContRev}`}>
               <Image
                 priority
-                src={`/images/building.jpg`}
+                src={`/images/workspace2.jpg`}
                 className={`${utilStyles.inspoImg}`}
                 height={400}
                 width={400}
@@ -240,7 +240,7 @@ export default function Home({ allPostsData }) {
               />
               <Image
                 priority
-                src={`/images/sh.jpg`}
+                src={`/images/sitl.jpg`}
                 className={`${utilStyles.inspoImg}`}
                 height={400}
                 width={400}
@@ -259,7 +259,7 @@ export default function Home({ allPostsData }) {
             <div className={`${utilStyles.inspoImgCont}`}>
               <Image
                 priority
-                src={`/images/building.jpg`}
+                src={`/images/boat.jpg`}
                 className={`${utilStyles.inspoImg}`}
                 height={400}
                 width={400}
@@ -267,7 +267,7 @@ export default function Home({ allPostsData }) {
               />
               <Image
                 priority
-                src={`/images/sh.jpg`}
+                src={`/images/fantasy.jpg`}
                 className={`${utilStyles.inspoImg}`}
                 height={400}
                 width={400}

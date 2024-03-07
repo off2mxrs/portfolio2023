@@ -523,6 +523,10 @@
     .contactPod {
         border-radius: 0 0 40px 40px;
     }
+
+    .inspoImg {
+      height: 112.5px;
+    }
 }
 
 @media (min-width: 481px) {
