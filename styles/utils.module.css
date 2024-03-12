@@ -55,7 +55,7 @@
   }
 
   .introPod {
-    max-width: 675px;
+    /* max-width: 675px; Set this with side by side header update*/
     height: 375px;
     align-items: center;
     padding: 1rem;
