@@ -11,17 +11,17 @@ homeImg: '/images/nprdonate.jpeg'
 [![donation form](/images/personalDonate.png "donation form")](https://donate.capradio.org/additional)
 
 ## Features
-Sleek design with animations for a modern feel and ease of use 24/7 and during fund drive campaigns:
+Sleek design with animations for a modern feel and ease of use daily and during fund drive campaigns:
 
 - 6 forms with default and personalized views for users to increase or maintain their contributions.
 
-- Bank Account and Credit Card payment options.
+- Bank account and credit card payment options.
 
 - E-commerce product listing for a dynamic selection of Thank-You gifts.
 
-- Button and input form fields
+- Button and input form fields with prepopulated amount capabilities.
 
-- Shadow form process form submissions through api connections via MailChimp, Luminate, and Online Express.
+- Form submissions processed through API connections via MailChimp, Luminate, and Online Express.
 
 ## Tech
 - JavaScript

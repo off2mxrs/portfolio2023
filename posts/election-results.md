@@ -21,11 +21,9 @@ You can use Static Generation for many types of pages, including:
 You should ask yourself: "Can I pre-render this page **ahead** of a user's request?" If the answer is yes, then you should choose Static Generation.
 
 ## Tech
-- JavaScript
+- Python
 - TypeScript
+- JavaScript
 - HTML
-- SCSS
-- Docker
-- Angular
-- Sky API
-- AWS
+- LESS
+- Batchfile

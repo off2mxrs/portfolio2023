@@ -24,10 +24,7 @@ You should ask yourself: "Can I pre-render this page **ahead** of a user's reque
 - JavaScript
 - TypeScript
 - HTML
-- SCSS
-- Docker
-- Angular
-- Sky API
-- AWS
-
-![The San Juan Mountains are beautiful!](/images/sacKnoMobile.png "San Juan Mountains")
+- CSS
+- ASP.NET
+- C#
+- XSLT
