@@ -83,7 +83,8 @@ export default function Home({ allPostsData }) {
                 className={`${utilStyles.workImg}`}
                 height={1800}
                 width={1500}
-                alt=""
+                alt={title}
+                title={title}
               />
             </Link>
           </li>
