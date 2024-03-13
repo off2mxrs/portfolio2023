@@ -59,27 +59,33 @@
     /* max-width: 675px; Set this with side by side header update*/
     align-items: center;
     padding: 1rem;
-    background: #00027c78;
-    height: 550px;
-    border: black solid 3px;
-    margin-bottom: 48px;
+    background: #155aa52b;
+    height: 725px;
+    border: black solid 2px;
+    margin-bottom: 50px;
     justify-content: center;
   }
 
   .introPodInner {
     display: flex;
     flex-direction: column;
-    max-width: 600px;
+    max-width: 750px;
   }
+
+  /* .introPodInner p:first-child {
+    max-width: 500px;
+  } */
 
   .introPodInner p {
     font-size: 14px;
+    font-weight: bold;
+    text-decoration: underline black 2px;
   }
 
   .introPodLower {
     display: flex;
     justify-content: space-between;
-    height: 250px;
+    /* height: 250px; */
     align-items: flex-start;
   }
 
@@ -88,7 +94,7 @@
   }
 
   .introPodLower_p {
-    margin-bottom: 24px;
+    margin-bottom: 48px;
   }
 
   .pfpSect {
@@ -100,7 +106,7 @@
   }
 
   .pfp {
-    max-width: 200px;
+    max-width: 225px;
     border-bottom: 3px solid #000;
     border-right: #d45c37 6px solid;
     border-radius: 40px;
@@ -135,7 +141,7 @@
 
   .deskName {
     position: relative;
-    font-size: 64px;
+    font-size: 80px;
   }
   
   .borderCircle {
@@ -423,6 +429,10 @@
         display: none;
     }
 
+    .introPodLower_p {
+      margin-bottom: 24px;
+    }
+
     .inspoCont {
       font-size: 14px
     }
@@ -544,7 +554,7 @@
     }
 }
 
-@media (min-width: 481px) and (max-width: 600px) {
+@media (min-width: 481px) and (max-width: 700px) {
     .deskName {
         font-size: 48px;
         width: fit-content;
@@ -560,12 +570,22 @@
     }
 }
 
-@media (min-width: 601px) and (max-width: 768px) {
+@media (min-width: 701px) and (max-width: 768px) {
 
   .showPageContent div:last-child p:nth-child(3) {
       bottom: 250px;
       right: 28px;
     }
+}
+
+@media (max-width: 700px) {
+  .introPod {
+    height: 500px;
+  }
+
+  .introPodInner p {
+    text-decoration: underline black 1px;
+  }
 }
 
 @media (min-width: 769px) and (max-width: 991px) {
