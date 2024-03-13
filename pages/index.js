@@ -25,7 +25,7 @@ export default function Home({ allPostsData }) {
       <Head>
         <title>{siteTitle}</title>
       </Head>
-      <header id='intro' className={`${styles.pod} ${styles.podHover} ${styles.noise} ${utilStyles.introPod}`}>
+      <header id='intro' className={`${utilStyles.intro}  ${styles.podHover} ${utilStyles.introPod}`}>
         <div className={`${utilStyles.introPodInner}`}>
             <p>Frontend development has become my channel for harmonizing all of my creative energy toward one refined objective: curating experiences through digital products.</p>
           <div className={`${utilStyles.introPodLower}`}>

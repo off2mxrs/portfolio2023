@@ -54,11 +54,16 @@
     line-height: 1.5;
   }
 
+
   .introPod {
     /* max-width: 675px; Set this with side by side header update*/
-    height: 375px;
     align-items: center;
     padding: 1rem;
+    background: #00027c78;
+    height: 550px;
+    border: black solid 3px;
+    margin-bottom: 48px;
+    justify-content: center;
   }
 
   .introPodInner {
