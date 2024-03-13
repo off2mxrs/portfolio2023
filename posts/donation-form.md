@@ -1,7 +1,7 @@
 ---
 title: 'donation form'
 category: '/donate.capradio.org'
-homeImg: '/images/nprdonate.jpeg'
+homeImg: '/images/nprdonate.jpg'
 ---
 
  Donation website for supporters to start/give a monthly or one-time gift to the non-profit radio station. Contains various pages to handle multiple donation use cases.
