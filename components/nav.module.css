@@ -26,6 +26,7 @@
 .menu li {
   margin: 0;
   color: black;
+  margin-bottom: 6px;
 }
 
 .menuIcon {
