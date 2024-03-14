@@ -8,7 +8,7 @@ homeImg: '/images/nprdonate.jpg'
 
 [![donation form](/images/capDF.png "donation form")](https://donate.capradio.org/)
 
-[![donation form](/images/personalDonate.png "donation form")](https://donate.capradio.org/additional)
+[![donation form](/images/personalDonate2.png "donation form")](https://donate.capradio.org/additional)
 
 ## Features
 Sleek design with animations for a modern feel and ease of use daily and during fund drive campaigns:
