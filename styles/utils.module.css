@@ -96,6 +96,10 @@
     margin-bottom: 48px;
   }
 
+  .outerPfpSect {
+    margin-top: 16px;
+  }
+
   .pfpSect {
     display: flex;
     flex-direction: column;
@@ -409,7 +413,7 @@
 
     .outerPfpSect {
         display: flex;
-        /* height: 250px; */
+        height: 200px;
         align-items: flex-end;
     }
 
