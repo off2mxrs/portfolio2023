@@ -4,7 +4,7 @@ category: '/sacramenknow'
 homeImg: '/images/towerbridge.jpg'
 ---
 
-Newsletter sign up landing page. Dynamic overlay sign up shown in mobile view.
+Newsletter signup landing page. The mobile view showcases the site-wide, dynamic signup overlay.
 
 [![sacramenknow](/images/sacKno.png "sacramenknow")](https://www.capradio.org/sacramenknow/)
 
@@ -13,9 +13,9 @@ Newsletter sign up landing page. Dynamic overlay sign up shown in mobile view.
 ## Features
 Component layout and theme customizable from CMS to match the call to action with newsletter branding.
 
-- Form submissions handled through Umbraco controllers and forms.
+- Form submissions are handled through Umbraco controllers and forms.
 
-- Sign up data tracked via Mailchimp and Google Analytics GA4.
+- Signup data is tracked via Mailchimp and Google Analytics GA4.
 
 - Landing page includes a modal that displays a preview newsletter.
 
