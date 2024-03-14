@@ -268,7 +268,7 @@ export default function Home({ allPostsData }) {
               />
               <Image
                 priority
-                src={`/images/fantasy.jpg`}
+                src={`/images/fantasy2.jpg`}
                 className={`${utilStyles.inspoImg}`}
                 height={400}
                 width={400}
