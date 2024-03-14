@@ -4,21 +4,22 @@ category: '/sacramenknow'
 homeImg: '/images/towerbridge.jpg'
 ---
 
-We recommend using **Static Generation** (with and without data) whenever possible because your page can be built once and served by CDN, which makes it much faster than having a server render the page on every request.
+Newsletter sign up landing page. Dynamic overlay sign up shown in mobile view.
 
 [![sacramenknow](/images/sacKno.png "sacramenknow")](https://www.capradio.org/sacramenknow/)
 
 [![overlay](/images/overlay.png "overlay")](https://www.capradio.org)
 
 ## Features
-You can use [Static Generation]() for many types of pages, including:
+Component layout and theme customizable from CMS to match the call to action with newsletter branding.
 
-- Marketing pages
-- Blog posts
-- E-commerce product listings 
-- Help and documentation
+- Form submissions handled through Umbraco controllers and forms.
 
-You should ask yourself: "Can I pre-render this page **ahead** of a user's request?" If the answer is yes, then you should choose Static Generation.
+- Sign up data tracked via Mailchimp and Google Analytics GA4.
+
+- Landing page includes a modal that displays a preview newsletter.
+
+- Overlay animates in for new and returning users based on conditions set by cookie parameters.
 
 ## Tech
 - JavaScript
