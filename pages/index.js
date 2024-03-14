@@ -27,10 +27,10 @@ export default function Home({ allPostsData }) {
       </Head>
       <header id='intro' className={`${utilStyles.intro}  ${styles.podHover} ${utilStyles.introPod}`}>
         <div className={`${utilStyles.introPodInner}`}>
-            <p>Frontend development has become my channel for harmonizing all of my creative energy toward one refined objective: curating experiences through digital products.</p>
+            <p>Frontend development has become my channel for harmonizing my creative energy toward one refined objective: curating experiences through digital products.</p>
           <div className={`${utilStyles.introPodLower}`}>
             <div>
-              <p>Theres no better joy than being part of a team that leaves a meaningful imprint on the greater community.</p>
+              <p>There's no better joy than being part of a team that leaves a meaningful imprint on the greater community.</p>
               <p className={`${utilStyles.introPodLower_p}`}>I'm an artist thru & thru. Design thinking keeps me true! - Welcome ;)</p>
               <div>
                 <ul className={`${utilStyles.roles}`}>
