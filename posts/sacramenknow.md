@@ -8,7 +8,7 @@ We recommend using **Static Generation** (with and without data) whenever possib
 
 [![sacramenknow](/images/sacKno.png "sacramenknow")](https://www.capradio.org/sacramenknow/)
 
-[![overlay](/images/overlayMob.png "overlay")](https://www.capradio.org)
+[![overlay](/images/overlay.png "overlay")](https://www.capradio.org)
 
 ## Features
 You can use [Static Generation]() for many types of pages, including:
