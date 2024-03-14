@@ -108,7 +108,7 @@ export default function Home({ allPostsData }) {
                 width={400}
                 alt=""
               />
-          <h3 className={`${utilStyles.resumeLink}`}>resume</h3>
+          <h3 className={`${utilStyles.resumeLink}`}>click resume!</h3>
         </Link>
         </div>
         
@@ -123,6 +123,7 @@ export default function Home({ allPostsData }) {
           </ul>
           <ul className={`${utilStyles.skills}`}>
             <li><h3>frameworks</h3></li>
+            <li>next.js</li>
             <li>react</li>
             <li>angular</li>
             <li>node | express</li>

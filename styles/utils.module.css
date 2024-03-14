@@ -200,9 +200,9 @@
   .resumeContainer {
     background: #DE5230;
     border-radius: 16px;
-    width: 60px;
+    width: 85px;
     margin: 8px;
-    height: 66px;
+    border: #000 solid 1px;
   }
 
   .resumeFlex {
@@ -222,6 +222,7 @@
   .resumeLink {
     color: white;
     font-weight: bold;
+    font-size: 20px;
   }
 
   .skills {
@@ -485,18 +486,8 @@
     font-size: 3rem;
   }
 
-  .resumeContainer {
-    width: 86px;
-    margin: 8px;
-    height: 80px;
-  }
-
     .resumeFlex {
       width: 40px;
-  }
-
-  .resumeLink {
-    font-size: 2rem;
   }
 
   .inspoImgCont {
