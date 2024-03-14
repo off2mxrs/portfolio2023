@@ -62,10 +62,11 @@ export default function Layout({ children, home }) {
         <main className={styles.showPageContainer}>
           {children}
         </main>
+
+        <footer className={styles.footer}>
+          <p><em>marshawndavidson.dev est 2023</em></p>
+        </footer>
       </div>
-      <footer className={styles.footer}>
-        <p><em>marshawndavidson.dev est 2023</em></p>
-      </footer>
      </div>
     );
   }

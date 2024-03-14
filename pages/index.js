@@ -159,7 +159,7 @@ export default function Home({ allPostsData }) {
           <h2 id='roses' className={utilStyles.headingLg}>roses</h2>
           <span className={utilStyles.orngRect}></span>
 
-          <p className={utilStyles.roseP}><em>Rose, Bud, Thorns is a way to celebrate, look forward, and reflect.</em></p> 
+          <p className={utilStyles.roseP}><em>Rose, Bud, Thorns</em> is a way to celebrate, look forward, and reflect.</p> 
 
           <div className={`${utilStyles.rosesImgCont}`}>
         <Image
