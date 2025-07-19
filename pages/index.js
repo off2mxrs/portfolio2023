@@ -69,7 +69,7 @@ export default function Home({ allPostsData }) {
 
       <section className={`${utilStyles.headingMd} ${utilStyles.padding1px} ${styles.pod} ${styles.podHover} ${styles.noise}`}>
         <div className={utilStyles.podTitle}>
-          <h2 id='work' className={utilStyles.headingLg}>capradio | npr</h2>
+          <h2 id='work' className={utilStyles.headingLg}>projects</h2>
           <span className={utilStyles.orngRect}></span>
         </div>
         <ul className={utilStyles.list}>
