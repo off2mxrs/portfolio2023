@@ -69,7 +69,7 @@ export default function Home({ allPostsData }) {
 
       <section className={`${utilStyles.headingMd} ${utilStyles.padding1px} ${styles.pod} ${styles.podHover} ${styles.noise}`}>
         <div className={utilStyles.podTitle}>
-          <h2 id='work' className={utilStyles.headingLg}>capradio | npr</h2>
+          <h2 id='work' className={utilStyles.headingLg}>projects</h2>
           <span className={utilStyles.orngRect}></span>
         </div>
         <ul className={utilStyles.list}>
@@ -164,7 +164,7 @@ export default function Home({ allPostsData }) {
           <div className={`${utilStyles.rosesImgCont}`}>
         <Image
                 priority
-                src={`/images/seo.png`}
+                src={`/images/coursera-google-ux.png`}
                 className={`${utilStyles.rosesImg}`}
                 height={300}
                 width={400}
@@ -172,7 +172,15 @@ export default function Home({ allPostsData }) {
               />
         <Image
                 priority
-                src={`/images/conversions.png`}
+                src={`/images/coursera-meta-fed.png`}
+                className={`${utilStyles.rosesImg}`}
+                height={300}
+                width={400}
+                alt=""
+              />
+        <Image
+                priority
+                src={`/images/seo.png`}
                 className={`${utilStyles.rosesImg}`}
                 height={300}
                 width={400}

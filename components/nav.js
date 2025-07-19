@@ -42,7 +42,7 @@ const Navigation = () => {
           <li onClick={toggleMenu}>intro</li>
         </Link>
         <Link href="/#work" passHref>
-          <li onClick={toggleMenu}>work</li>
+          <li onClick={toggleMenu}>projects</li>
         </Link>
         <Link href="/#resume" passHref>
           <li onClick={toggleMenu}>resume</li>

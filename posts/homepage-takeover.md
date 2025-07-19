@@ -1,0 +1,34 @@
+---
+title: 'homepage takeover'
+category: '/capradio.org'
+homeImg: '/images/cpr_takeover.png'
+---
+
+ Donation website for supporters to start/give a monthly or one-time gift to the non-profit radio station. Contains various pages to handle multiple donation use cases.
+
+[![donation form](/images/cpr_takeover.png "donation form")](https://capradio.org)
+
+[![donation form](/images/cpr_mob_takeover.png "donation form")](https://capradio.org)
+
+## Features
+Sleek design with animations for a modern feel and ease of use daily and during fund drive campaigns.
+
+- 6 forms with default and personalized views for users to increase or maintain their contributions.
+
+- Bank account and credit card payment options.
+
+- E-commerce product listing for a dynamic selection of Thank-You gifts.
+
+- Button and input form fields with prepopulated amount capabilities.
+
+- Form submissions processed through API connections via MailChimp, Luminate, and Online Express.
+
+## Tech
+- JavaScript
+- TypeScript
+- HTML
+- SCSS
+- Docker
+- Angular
+- Sky API
+- AWS
