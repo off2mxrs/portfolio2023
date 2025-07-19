@@ -164,7 +164,7 @@ export default function Home({ allPostsData }) {
           <div className={`${utilStyles.rosesImgCont}`}>
         <Image
                 priority
-                src={`/images/seo.png`}
+                src={`/images/coursera-google-ux.png`}
                 className={`${utilStyles.rosesImg}`}
                 height={300}
                 width={400}
@@ -172,7 +172,15 @@ export default function Home({ allPostsData }) {
               />
         <Image
                 priority
-                src={`/images/conversions.png`}
+                src={`/images/coursera-meta-fed.png`}
+                className={`${utilStyles.rosesImg}`}
+                height={300}
+                width={400}
+                alt=""
+              />
+        <Image
+                priority
+                src={`/images/seo.png`}
                 className={`${utilStyles.rosesImg}`}
                 height={300}
                 width={400}
