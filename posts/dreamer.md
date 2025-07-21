@@ -1,35 +1,47 @@
 ---
-title: 'dreamer'
+title: 'dreamer (ux/ui)'
 category: 'app'
 homeImg: '/images/dreamer-logo-black.png'
+date: '2025-07-01'
 ---
 
- Donation website for supporters to start/give a monthly or one-time gift to the non-profit radio station. Contains various pages to handle multiple donation use cases.
+A collaboration within a small startup to design, prototype, and launch the MVP of Dreamer, a platform focused on helping creative entrepreneurs manage projects and workflows intuitively. Prioritized user-centered design, accessibility, and rapid iteration to bring the vision to life for pilot testing.
 
 ![dreamer app](/images/dreamer_slide.jpg "dreamer app")
 
 <!-- Mob img intrinsic size 370x663 for proper placement & scaling -->
 ![dreamer app](/images/dreamer_mob.png "dreamer app")
 
-## Features
-Sleek design with animations for a modern feel and ease of use daily and during fund drive campaigns.
+## My Role
+As Founding UX/UI Designer, I:
 
-- 6 forms with default and personalized views for users to increase or maintain their contributions.
+- Led Figma design and prototyping of Dreamer’s MVP with a focus on accessibility and workflow clarity.
 
-- Bank account and credit card payment options.
+- Collaborated with a 5-person cross-functional team to define user flows and create high-fidelity prototypes.
 
-- E-commerce product listing for a dynamic selection of Thank-You gifts.
+- Configured and tested low-code/no-code workflows using Bubble.io for rapid MVP iteration.
 
-- Button and input form fields with prepopulated amount capabilities.
+- Supported user testing and iterative refinement to align the product with user needs.
 
-- Form submissions processed through API connections via MailChimp, Luminate, and Online Express.
+## What I Built
+- High-fidelity Figma prototypes showcasing pilot features and clear user flows.
+
+- Accessible, user-centered design patterns grounded in WCAG guidelines.
+
+- Low-code MVP workflows using Bubble.io for a functional, testable platform.
+
+- Design system foundations to support scalable feature growth post-MVP.
+
+## The Outcome
+- Delivered an MVP that enabled Dreamer to secure pilot user testing and initial feedback loops.
+
+- Facilitated iterative refinements based on user testing insights to improve usability and workflow clarity.
+
+- Established a scalable design foundation to accelerate future feature builds.
 
 ## Tech
-- JavaScript
-- TypeScript
-- HTML
-- SCSS
-- Docker
-- Angular
-- Sky API
-- AWS
+- Figma
+- Bubble.io
+- WCAG accessibility standards
+- Asana
+- Slack

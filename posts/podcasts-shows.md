@@ -2,6 +2,7 @@
 title: 'podcasts & shows'
 category: '/podcasts-shows'
 homeImg: '/images/amotoTile.png'
+date: '1970-01-01'
 ---
 
 Gallery of local and NPR affiliate podcasts & shows for users to follow. Individual podcast homepage featured in the mobile view.

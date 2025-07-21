@@ -2,6 +2,7 @@
 title: 'sacramenknow'
 category: '/sacramenknow'
 homeImg: '/images/towerbridge.jpg'
+date: '1970-01-01'
 ---
 
 Newsletter signup landing page. The mobile view showcases the site-wide, dynamic signup overlay.

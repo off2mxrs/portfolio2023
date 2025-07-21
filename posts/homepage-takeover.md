@@ -1,35 +1,42 @@
 ---
 title: 'homepage takeover'
-category: '/capradio.org'
+category: 'a/b testing'
 homeImg: '/images/cpr_takeover.PNG'
+date: '1970-01-01'
 ---
 
- Donation website for supporters to start/give a monthly or one-time gift to the non-profit radio station. Contains various pages to handle multiple donation use cases.
+A collaboration between Marketing and Product to determine how best to increase user engagement and donations on CapRadio’s homepage. We A/B tested a modernized pushdown banner against a custom homepage takeover, ultimately driving measurable impact on donation goals.
 
-[![donation form](/images/cpr_takeover.PNG "donation form")](https://capradio.org)
+[![homepage takeover](/images/cpr_takeover.PNG "homepage takeover")](https://capradio.org)
 
 <!-- Mob img intrinsic size 370x663 for proper placement & scaling -->
-[![donation form](/images/takeover_mob.PNG "donation form")](https://capradio.org)
+[![homepage takeover](/images/takeover_mob.PNG "homepage takeover")](https://capradio.org)
 
-## Features
-Sleek design with animations for a modern feel and ease of use daily and during fund drive campaigns.
+## My Role
+As Front-End Developer, I:
 
-- 6 forms with default and personalized views for users to increase or maintain their contributions.
+- Translated mockups into a functional, accessible takeover feature.
 
-- Bank account and credit card payment options.
+- Rebuilt the takeover as a full-page pop-up after identifying limitations in the initial structure.
 
-- E-commerce product listing for a dynamic selection of Thank-You gifts.
+- Ensured compatibility with VWO, aligning technical execution with stakeholder goals.
 
-- Button and input form fields with prepopulated amount capabilities.
+## What I Built
+- Custom homepage takeover built and integrated into the CMS infrastructure.
 
-- Form submissions processed through API connections via MailChimp, Luminate, and Online Express.
+- Refactored legacy pushdown banners for clean compatibility with VWO’s A/B testing tools.
+
+- Implemented with HTML/CSHTML, CSS/LESS, and Umbraco CMS for seamless deployment and testing.
+
+## The Outcome
+- 14% increase in donation button clicks across multiple A/B testing rounds.
+
+- No notable user complaints, validating the approach while supporting CapRadio’s fundraising efforts.
 
 ## Tech
 - JavaScript
-- TypeScript
 - HTML
-- SCSS
-- Docker
-- Angular
-- Sky API
-- AWS
+- CSS
+- LESS
+- VWO
+- Umbraco

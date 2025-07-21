@@ -2,9 +2,10 @@
 title: 'election results'
 category: '/election'
 homeImg: '/images/web_election-16-9.png'
+date: '1970-01-01'
 ---
 
-A webpage to keep up to date with the California 2022 election race numbers. 
+A webapp to keep up to date with the California 2022 election race numbers. 
 
 [![election results](/images/electionresults2.png "election results")](https://www.capradio.org/election/california-midterm-election-results-2022/)
 

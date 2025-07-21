@@ -1,35 +1,49 @@
 ---
-title: 'sponsorship landing page'
-category: '/capradio.org/support'
+title: 'sponsorship'
+category: 'landing page'
 homeImg: '/images/cpr_sponsorship_thumb.png'
+date: '1970-01-01'
 ---
 
- Donation website for supporters to start/give a monthly or one-time gift to the non-profit radio station. Contains various pages to handle multiple donation use cases.
+ A collaboration between Marketing and Product to design and build a sponsorship landing page that visually communicates CapRadio’s impact and value to potential sponsors while ensuring accessibility for all users.
 
 [![sponsorship landing page](/images/cpr_sponsorship.png "sponsorship landing page")](https://www.capradio.org/support/corporate-sponsorship/)
 
 <!-- Mob img intrinsic size 370x663 for proper placement & scaling -->
 [![sponsorship landing page](/images/cpr_mob_quote.png "sponsorship landing page")](https://www.capradio.org/support/corporate-sponsorship/)
 
-## Features
-Sleek design with animations for a modern feel and ease of use daily and during fund drive campaigns.
+## My Role
+My Role
+As Front-End Developer, I:
 
-- 6 forms with default and personalized views for users to increase or maintain their contributions.
+- Developed a visually engaging, responsive landing page following provided design direction.
 
-- Bank account and credit card payment options.
+- Integrated custom intuitive features, including Chart.js graphs, embedded audio players, logo carousels, and quote blocks.
 
-- E-commerce product listing for a dynamic selection of Thank-You gifts.
+- Ensured WCAG compliance to make the page accessible to all visitors.
 
-- Button and input form fields with prepopulated amount capabilities.
+- Integrated and configured Umbraco forms to capture sponsor interest and leads effectively.
 
-- Form submissions processed through API connections via MailChimp, Luminate, and Online Express.
+## What I Built
+- Responsive layout adapting seamlessly across devices.
+
+- Interactive, keyboard-navigable graphs and carousels for sponsor engagement.
+
+- Embedded accessible audio content to highlight CapRadio talent.
+
+- Lead capture forms built with Umbraco for easy marketing team workflows.
+
+## The Outcome
+- Delivered a high-quality sponsorship landing page aligning with CapRadio’s brand and accessibility standards.
+
+- Enabled Marketing to capture qualified leads efficiently while showcasing CapRadio’s sponsorship opportunities.
+
+- Provided an engaging, user experience that aligns with CapRadio’s mission and values.
 
 ## Tech
 - JavaScript
-- TypeScript
 - HTML
-- SCSS
-- Docker
-- Angular
-- Sky API
-- AWS
+- CSS/LESS
+- Chart.js
+- Umbraco
+- WCAG
