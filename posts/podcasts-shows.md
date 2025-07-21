@@ -2,13 +2,14 @@
 title: 'podcasts & shows'
 category: '/podcasts-shows'
 homeImg: '/images/amotoTile.png'
+date: '1970-01-01'
 ---
 
 Gallery of local and NPR affiliate podcasts & shows for users to follow. Individual podcast homepage featured in the mobile view.
 
 [![podcasts and shows](/images/capOrig.png "podcasts and shows")](https://www.capradio.org/podcasts-shows)
 
-
+<!-- Mob img intrinsic size 370x663 for proper placement & scaling -->
 [![mid pacific](/images/podshowMob.png "mid pacific")](https://www.capradio.org/news/mid-pacific/)
 
 ## Features
