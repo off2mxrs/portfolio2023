@@ -8,6 +8,7 @@ homeImg: '/images/cpr_takeover.PNG'
 
 [![donation form](/images/cpr_takeover.PNG "donation form")](https://capradio.org)
 
+<!-- Mob img intrinsic size 370x663 for proper placement & scaling -->
 [![donation form](/images/takeover_mob.PNG "donation form")](https://capradio.org)
 
 ## Features

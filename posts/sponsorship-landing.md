@@ -8,6 +8,7 @@ homeImg: '/images/cpr_sponsorship_thumb.png'
 
 [![sponsorship landing page](/images/cpr_sponsorship.png "sponsorship landing page")](https://www.capradio.org/support/corporate-sponsorship/)
 
+<!-- Mob img intrinsic size 370x663 for proper placement & scaling -->
 [![sponsorship landing page](/images/cpr_mob_quote.png "sponsorship landing page")](https://www.capradio.org/support/corporate-sponsorship/)
 
 ## Features

@@ -8,6 +8,7 @@ Newsletter signup landing page. The mobile view showcases the site-wide, dynamic
 
 [![sacramenknow](/images/sacKno.png "sacramenknow")](https://www.capradio.org/sacramenknow/)
 
+<!-- Mob img intrinsic size 370x663 for proper placement & scaling -->
 [![overlay](/images/overlay.png "overlay")](https://www.capradio.org)
 
 ## Features

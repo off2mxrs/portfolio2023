@@ -8,6 +8,7 @@ A webpage to keep up to date with the California 2022 election race numbers.
 
 [![election results](/images/electionresults2.png "election results")](https://www.capradio.org/election/california-midterm-election-results-2022/)
 
+<!-- Mob img intrinsic size 370x663 for proper placement & scaling -->
 [![election results](/images/electionMob.png "election results")](https://www.capradio.org/election/california-midterm-election-results-2022/)
 
 ## Features

@@ -8,6 +8,7 @@ homeImg: '/images/dreamer-logo-black.png'
 
 ![dreamer app](/images/dreamer_slide.jpg "dreamer app")
 
+<!-- Mob img intrinsic size 370x663 for proper placement & scaling -->
 ![dreamer app](/images/dreamer_mob.png "dreamer app")
 
 ## Features

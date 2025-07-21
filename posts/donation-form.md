@@ -8,6 +8,7 @@ homeImg: '/images/nprdonate.jpg'
 
 [![donation form](/images/capDF.png "donation form")](https://donate.capradio.org/)
 
+<!-- Mob img intrinsic size 370x663 for proper placement & scaling -->
 [![donation form](/images/personalDonate2.png "donation form")](https://donate.capradio.org/additional)
 
 ## Features
