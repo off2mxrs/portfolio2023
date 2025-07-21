@@ -292,6 +292,14 @@
     min-width: 90px;
     width: 284px;
     height: auto;
+    border-radius: 20px 20px 0 0;
+  }
+
+  .inspoImgSecond {
+    min-width: 90px;
+    width: 284px;
+    height: auto;
+    border-radius: 0 0 20px 20px;
   }
 
   .inspoRev {
@@ -496,6 +504,12 @@
    
    .inspoImg {
     height: 250px;
+    border-radius: 20px 0 0 20px;
+   }
+
+   .inspoImgSecond {
+    height: 250px;
+    border-radius: 0 20px 20px 0;
    }
 
    .inspoRev {
@@ -526,6 +540,10 @@
     }
 
     .inspoImg {
+      height: 112.5px;
+    }
+
+    .inspoImgSecond {
       height: 112.5px;
     }
 }
@@ -601,6 +619,10 @@
 
 @media (min-width: 1200px) {
   .inspoImg {
+    width: 375px;
+  }
+
+  .inspoImgSecond {
     width: 375px;
   }
 }

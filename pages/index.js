@@ -224,7 +224,7 @@ export default function Home({ allPostsData }) {
               <Image
                 priority
                 src={`/images/disco.jpg`}
-                className={`${utilStyles.inspoImg}`}
+                className={`${utilStyles.inspoImgSecond}`}
                 height={400}
                 width={400}
                 alt=""
@@ -251,7 +251,7 @@ export default function Home({ allPostsData }) {
               <Image
                 priority
                 src={`/images/sitl.jpg`}
-                className={`${utilStyles.inspoImg}`}
+                className={`${utilStyles.inspoImgSecond}`}
                 height={400}
                 width={400}
                 alt=""
@@ -278,7 +278,7 @@ export default function Home({ allPostsData }) {
               <Image
                 priority
                 src={`/images/fantasy2.jpg`}
-                className={`${utilStyles.inspoImg}`}
+                className={`${utilStyles.inspoImgSecond}`}
                 height={400}
                 width={400}
                 alt=""
