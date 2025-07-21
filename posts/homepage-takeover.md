@@ -1,14 +1,14 @@
 ---
 title: 'homepage takeover'
 category: '/capradio.org'
-homeImg: '/images/cpr_takeover.png'
+homeImg: '/images/cpr_takeover.PNG'
 ---
 
  Donation website for supporters to start/give a monthly or one-time gift to the non-profit radio station. Contains various pages to handle multiple donation use cases.
 
-[![donation form](/images/cpr_takeover.png "donation form")](https://capradio.org)
+[![donation form](/images/cpr_takeover.PNG "donation form")](https://capradio.org)
 
-[![donation form](/images/cpr_mob_takeover.png "donation form")](https://capradio.org)
+[![donation form](/images/takeover_mob.PNG "donation form")](https://capradio.org)
 
 ## Features
 Sleek design with animations for a modern feel and ease of use daily and during fund drive campaigns.
