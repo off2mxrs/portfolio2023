@@ -35,9 +35,8 @@ export default function Home({ allPostsData }) {
               <div>
                 <ul className={`${utilStyles.roles}`}>
                   <li>dev</li>
-                  <li>curator</li>
-                  <li>dancer</li>
-                  <li>multimedia</li>
+                  <li>creative</li>
+                  <li>designer</li>
                 </ul>
                 <h1 className={`${utilStyles.name} ${utilStyles.deskName}`}>{name}</h1>
               </div>
@@ -173,14 +172,6 @@ export default function Home({ allPostsData }) {
         <Image
                 priority
                 src={`/images/coursera-meta-fed.png`}
-                className={`${utilStyles.rosesImg}`}
-                height={300}
-                width={400}
-                alt=""
-              />
-        <Image
-                priority
-                src={`/images/seo.png`}
                 className={`${utilStyles.rosesImg}`}
                 height={300}
                 width={400}
